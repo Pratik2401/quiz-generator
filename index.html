@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Test</title>
+  </head>
+  <body>
+    <div class="whole">
+      <section class="body">
+        <article class="inner">
+          <div class="heading">
+            <span id="element"></span>
+          </div>
+          <div class="name">
+            <form action="">
+              <input type="text" placeholder="Enter Name" class="inp_name" />
+            </form>
+          </div>
+          <div class="start">
+            <button class="start_btn" id="start">Enter</button>
+            <button class="l_b" id="leader">Leaderboard</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="select">
+        <article class="inner_sel">
+          <p class="welcome"></p>
+
+          <select name="" id="" class="options">
+            <li>
+              <option value="null" disabled>--default--</option>
+            </li>
+            <li>
+              <option value="General Knowledge - Coding">GK-Coding</option>
+            </li>
+            <li>
+              <option value="Python">Python</option>
+            </li>
+            <li>
+              <option value="HTML">HTML</option>
+            </li>
+            <li>
+              <option value="CSS">CSS</option>
+            </li>
+            <li>
+              <option value="JavaScript">JavaScript</option>
+            </li>
+            <li>
+              <option value="C++">C++</option>
+            </li>
+            <li>
+              <option value="Java">Java</option>
+            </li>
+            <li>
+              <option value="Riddles">Riddles</option>
+            </li>
+          </select>
+          <button class="start_btn" id="st_quiz">Start Quiz</button>
+        </article>
+      </section>
+
+      <section class="quiz">
+        <section class="quiz_head">
+        <article class="type"></article>
+        <button class="submit">Submit</button>
+      </section>
+        <div class="quiz_body">
+     
+        </div>
+        </section>
+
+      <section class="score">
+        <span class="heading">Leaderboard</span>
+        <article class="list">
+        </article>
+        <button class="home" onclick="home()">Back to Home</button>
+      </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

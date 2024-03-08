@@ -1,0 +1,4838 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Knowledge - Coding"
+    },
+    {
+      "id": 2,
+      "name": "Python"
+    },
+    {
+      "id": 3,
+      "name": "HTML"
+    },
+    {
+      "id": 4,
+      "name": "CSS"
+    },
+    {
+      "id": 5,
+      "name": "JavaScript"
+    },
+    
+    {
+      "id": 6,
+      "name": "C++"
+    },
+    {
+      "id": 7,
+      "name": "Java"
+    },
+    {
+      "id": 8,
+      "name": "Riddles"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "question": "What does the acronym “HTML” stand for?",
+      "options": {
+          "a": "hypertext markup language",
+          "b": "hyperlink and text markup language",
+          "c": "high text markup language",
+          "d": "hypertext machine language"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 2,
+      "category_id": 1,
+      "question": "Which programming language is known for its use in web development and is often used for both client-side and server-side scripting?",
+      "options": {
+          "a": "javascript",
+          "b": "java",
+          "c": "python",
+          "d": "c++"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 3,
+      "category_id": 1,
+      "question": "What is the purpose of a “for loop” in programming?",
+      "options": {
+          "a": "to repeat a block of code a specific number of times",
+          "b": "to execute a block of code only if a condition is true",
+          "c": "to define a function",
+          "d": "to declare a variable"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 4,
+      "category_id": 1,
+      "question": "What does the term “API” stand for?",
+      "options": {
+          "a": "application programming interface",
+          "b": "advanced programming interface",
+          "c": "application process integration",
+          "d": "automated program interface"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 5,
+      "category_id": 1,
+      "question": "Which data structure follows the “Last In, First Out” (LIFO) principle?",
+      "options": {
+          "a": "queue",
+          "b": "stack",
+          "c": "heap",
+          "d": "linkedlist"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 6,
+      "category_id": 1,
+      "question": "What is the difference between “compiler” and “interpreter”?",
+      "options": {
+          "a": "a compiler translates the entire program into machine code before execution, while an interpreter executes the code line by line",
+          "b": "an interpreter translates the entire program into machine code before execution, while a compiler executes the code line by line",
+          "c": "there is no difference; they are interchangeable terms",
+          "d": "a compiler and an interpreter perform the same function"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 7,
+      "category_id": 1,
+      "question": "What is the purpose of version control systems like Git?",
+      "options": {
+          "a": "to manage changes to source code and collaborate with other developers",
+          "b": "to write and execute test cases",
+          "c": "to document software requirements",
+          "d": "to deploy software to production servers"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 8,
+      "category_id": 1,
+      "question": "What is the time complexity of searching an element in a balanced binary search tree?",
+      "options": {
+          "a": "o(n)",
+          "b": "o(log n)",
+          "c": "o(n log n)",
+          "d": "o(1)"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 9,
+      "category_id": 1,
+      "question": "What is the default sorting order for strings in most programming languages?",
+      "options": {
+          "a": "reverse alphabetical order",
+          "b": "random order",
+          "c": "descending order",
+          "d": "lexicographic (alphabetical) order"
+      },
+      "answer": "d"
+  },
+  {
+      "id": 10,
+      "category_id": 1,
+      "question": "What is the significance of the “main” function in C/C++ programs?",
+      "options": {
+          "a": "it serves as the entry point for program execution",
+          "b": "it defines the primary functionality of the program",
+          "c": "it declares global variables",
+          "d": "it includes header files"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 11,
+      "category_id": 1,
+      "question": "What is the purpose of a “try-catch” block in exception handling?",
+      "options": {
+          "a": "to prevent the program from crashing",
+          "b": "to handle and recover from runtime errors",
+          "c": "to terminate the program",
+          "d": "to print debugging information"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 12,
+      "category_id": 1,
+      "question": "Which sorting algorithm has an average time complexity of O(n log n)?",
+      "options": {
+          "a": "bubble sort",
+          "b": "insertion sort",
+          "c": "quick sort",
+          "d": "merge sort"
+      },
+      "answer": "d"
+  },
+  {
+      "id": 13,
+      "category_id": 1,
+      "question": "What is the difference between “static” and “dynamic” typing in programming languages?",
+      "options": {
+          "a": "static typing requires variable types to be declared at compile time, while dynamic typing allows type checking at runtime",
+          "b": "static typing allows variables to change type during runtime, while dynamic typing does not",
+          "c": "static typing does not require variable types to be declared at compile time, while dynamic typing does",
+          "d": "there is no difference; they are interchangeable terms"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 14,
+      "category_id": 1,
+      "question": "What is the role of a “pointer” in C/C++?",
+      "options": {
+          "a": "to store memory addresses and allow manipulation of data indirectly",
+          "b": "to store integer values",
+          "c": "to define functions",
+          "d": "to allocate memory dynamically"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 15,
+      "category_id": 1,
+      "question": "What is the purpose of the “this” keyword in Java?",
+      "options": {
+          "a": "to refer to the current instance of a class",
+          "b": "to create a new instance of a class",
+          "c": "to call superclass methods",
+          "d": "to throw exceptions"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 16,
+      "category_id": 1,
+      "question": "Which data structure is used to implement a priority queue?",
+      "options": {
+          "a": "queue",
+          "b": "heap",
+          "c": "linkedlist",
+          "d": "stack"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 17,
+      "category_id": 1,
+      "question": "What is the difference between “stack” and “heap” memory allocation?",
+      "options": {
+          "a": "stack memory is used for function call management, while heap memory is used for dynamic memory allocation",
+          "b": "stack memory is used for dynamic memory allocation, while heap memory is used for function call management",
+          "c": "there is no difference; they refer to the same memory region",
+          "d": "heap memory is used for function call management, while stack memory is used for dynamic memory allocation"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 18,
+      "category_id": 1,
+      "question": "What is the maximum value that can be stored in a 32-bit signed integer?",
+      "options": {
+          "a": "2,147,483,647",
+          "b": "4,294,967,295",
+          "c": "1,000,000",
+          "d": "999,999"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 19,
+      "category_id": 1,
+      "question": "What does the acronym “SQL” stand for?",
+      "options": {
+          "a": "structured query language",
+          "b": "sequential query language",
+          "c": "structured question language",
+          "d": "system query language"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 20,
+      "category_id": 1,
+      "question": "What is the purpose of the “yield” keyword in Python?",
+      "options": {
+          "a": "it is used to terminate a loop",
+          "b": "it is used to yield control back to the calling function",
+          "c": "it is used in generator functions to produce a sequence of values lazily",
+          "d": "it is used to define class attributes"
+      },
+      "answer": "c"
+  },
+  {
+      "id": 21,
+      "category_id": 1,
+      "question": "What does the acronym “CSS” stand for?",
+      "options": {
+          "a": "cascading style sheets",
+          "b": "computer style sheets",
+          "c": "creative style sheets",
+          "d": "coded style sheets"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 22,
+      "category_id": 1,
+      "question": "Which programming language is commonly used for data analysis and scientific computing?",
+      "options": {
+          "a": "python",
+          "b": "java",
+          "c": "c++",
+          "d": "javascript"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 23,
+      "category_id": 1,
+      "question": "What is the purpose of an “if statement” in programming?",
+      "options": {
+          "a": "to conditionally execute a block of code based on a specified condition",
+          "b": "to execute a block of code repeatedly",
+          "c": "to define a function",
+          "d": "to declare a variable"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 24,
+      "category_id": 1,
+      "question": "What is the difference between “static” and “dynamic” linking of libraries?",
+      "options": {
+          "a": "static linking includes library code directly in the executable, while dynamic linking loads libraries at runtime",
+          "b": "static linking loads libraries at runtime, while dynamic linking includes library code directly in the executable",
+          "c": "both static and dynamic linking load libraries at compile-time",
+          "d": "both static and dynamic linking load libraries at runtime"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 25,
+      "category_id": 1,
+      "question": "What is the time complexity of searching an element in an unsorted array?",
+      "options": {
+          "a": "o(n)",
+          "b": "o(log n)",
+          "c": "o(n^2)",
+          "d": "o(1)"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 26,
+      "category_id": 1,
+      "question": "What is the significance of the “void” keyword in C/C++?",
+      "options": {
+          "a": "it indicates that a function does not return a value",
+          "b": "it indicates that a function returns a void pointer",
+          "c": "it specifies the visibility of class members",
+          "d": "it specifies the scope of a variable"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 27,
+      "category_id": 1,
+      "question": "Which data structure is used to implement a queue?",
+      "options": {
+          "a": "queue",
+          "b": "stack",
+          "c": "linkedlist",
+          "d": "array"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 28,
+      "category_id": 1,
+      "question": "What is the purpose of a “hash table” (or “hash map”)?",
+      "options": {
+          "a": "to store key-value pairs with efficient lookup",
+          "b": "to sort elements in ascending order",
+          "c": "to remove duplicates from a list",
+          "d": "to perform arithmetic operations"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 29,
+      "category_id": 1,
+      "question": "What is the default access modifier for class members in Java?",
+      "options": {
+          "a": "private",
+          "b": "protected",
+          "c": "public",
+          "d": "package-private (default)"
+      },
+      "answer": "d"
+  },
+  {
+      "id": 30,
+      "category_id": 1,
+      "question": "What is the difference between “stack memory” and “heap memory”?",
+      "options": {
+          "a": "stack memory is used for function call management, while heap memory is used for dynamic memory allocation",
+          "b": "heap memory is used for function call management, while stack memory is used for dynamic memory allocation",
+          "c": "both stack and heap memory are used interchangeably",
+          "d": "stack memory and heap memory are not related to memory management"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 31,
+      "category_id": 1,
+      "question": "What is the maximum value that can be stored in a 64-bit signed integer?",
+      "options": {
+          "a": "9,223,372,036,854,775,807",
+          "b": "18,446,744,073,709,551,615",
+          "c": "4,294,967,295",
+          "d": "2,147,483,647"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 32,
+      "category_id": 1,
+      "question": "What is the purpose of the “await” keyword in asynchronous programming (e.g., JavaScript)?",
+      "options": {
+          "a": "it waits for a promise to resolve before continuing execution",
+          "b": "it executes the next line of code immediately",
+          "c": "it waits for a function to return a value",
+          "d": "it specifies a delay in milliseconds before executing the next line of code"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 33,
+      "category_id": 1,
+      "question": "Which sorting algorithm has the worst-case time complexity of o(n^2)?",
+      "options": {
+          "a": "merge sort",
+          "b": "quick sort",
+          "c": "bubble sort",
+          "d": "insertion sort"
+      },
+      "answer": "c"
+  },
+  {
+      "id": 34,
+      "category_id": 1,
+      "question": "What is the purpose of a “constructor” in object-oriented programming?",
+      "options": {
+          "a": "to initialize object properties when an instance is created",
+          "b": "to define static methods",
+          "c": "to perform arithmetic operations",
+          "d": "to allocate memory for objects"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 35,
+      "category_id": 1,
+      "question": "What is the difference between “compile-time” and “runtime” errors?",
+      "options": {
+          "a": "compile-time errors occur during code compilation, while runtime errors occur during program execution",
+          "b": "compile-time errors occur during program execution, while runtime errors occur during code compilation",
+          "c": "there is no difference; they both occur during code compilation",
+          "d": "there is no difference; they both occur during program execution"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 36,
+      "category_id": 1,
+      "question": "What is the purpose of the “super” keyword in Java?",
+      "options": {
+          "a": "it refers to the subclass (child class) of the current class",
+          "b": "it refers to the superclass (parent class) of the current class",
+          "c": "it refers to the base class of the current class",
+          "d": "it refers to the derived class of the current class"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 37,
+      "category_id": 1,
+      "question": "Which data structure is used for implementing a symbol table (dictionary)?",
+      "options": {
+          "a": "array",
+          "b": "tree",
+          "c": "linkedlist",
+          "d": "hashtable"
+      },
+      "answer": "d"
+  },
+  {
+      "id": 38,
+      "category_id": 1,
+      "question": "What is the significance of the “volatile” keyword in Java?",
+      "options": {
+          "a": "it ensures that a variable’s value is read from memory each time it is accessed",
+          "b": "it specifies that a variable cannot be modified",
+          "c": "it indicates that a variable can only be accessed within a synchronized block",
+          "d": "it specifies the scope of a variable"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 39,
+      "category_id": 1,
+      "question": "What is the difference between “deep copy” and “shallow copy” of objects?",
+      "options": {
+          "a": "a deep copy duplicates the entire object, including nested objects, while a shallow copy only copies references",
+          "b": "a deep copy only copies references, while a shallow copy duplicates the entire object",
+          "c": "a deep copy and a shallow copy are the same",
+          "d": "a deep copy and a shallow copy both duplicate the entire object"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 40,
+      "category_id": 1,
+      "question": "What is the purpose of the “break” statement in loops?",
+      "options": {
+          "a": "to exit the loop prematurely",
+          "b": "to continue to the next iteration of the loop",
+          "c": "to break out of the current block of code",
+          "d": "to terminate the program"
+      },
+      "answer": "a"
+  },
+    {
+      "id": 41,
+      "category_id": 1,
+      "question": "What is the purpose of the “continue” statement in loops?",
+      "options": {
+        "a": "To exit the loop completely",
+        "b": "To restart the loop from the beginning",
+        "c": "To skip the current iteration and proceed to the next iteration of the loop",
+        "d": "To break out of the loop"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 42,
+      "category_id": 1,
+      "question": "Which programming language is commonly used for game development?",
+      "options": {
+        "a": "Java",
+        "b": "Python",
+        "c": "C++",
+        "d": "JavaScript"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 43,
+      "category_id": 1,
+      "question": "What does the acronym “URL” stand for?",
+      "options": {
+        "a": "Uniform Resource Locator",
+        "b": "Universal Resource Locator",
+        "c": "Unified Resource Locator",
+        "d": "Universal Reference Link"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 44,
+      "category_id": 1,
+      "question": "What is the difference between “stack” and “queue” data structures?",
+      "options": {
+        "a": "A stack follows the First In, First Out (FIFO) principle, while a queue follows the Last In, First Out (LIFO) principle",
+        "b": "A stack and a queue both follow the First In, First Out (FIFO) principle",
+        "c": "A stack follows the Last In, First Out (LIFO) principle, while a queue follows the First In, First Out (FIFO) principle",
+        "d": "A stack and a queue both follow the Last In, First Out (LIFO) principle"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 45,
+      "category_id": 1,
+      "question": "What is the purpose of the “finally” block in exception handling?",
+      "options": {
+        "a": "It contains code that executes only if an exception occurs",
+        "b": "It contains code that executes before an exception occurs",
+        "c": "It contains code that executes regardless of whether an exception occurs or not",
+        "d": "It contains code that executes after catching an exception"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 46,
+      "category_id": 1,
+      "question": "Which sorting algorithm has the best average-case time complexity for a large number of elements?",
+      "options": {
+        "a": "Bubble Sort",
+        "b": "Selection Sort",
+        "c": "Insertion Sort",
+        "d": "Quick Sort"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 47,
+      "category_id": 1,
+      "question": "What is the purpose of the “NaN” value in JavaScript?",
+      "options": {
+        "a": "It represents a null value",
+        "b": "It represents an undefined value",
+        "c": "It represents a negative infinity value",
+        "d": "It represents an undefined or unrepresentable value"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 48,
+      "category_id": 1,
+      "question": "What is the difference between “static” and “instance” methods in Java?",
+      "options": {
+        "a": "Static methods belong to the class itself, while instance methods operate on specific instances of the class",
+        "b": "Static methods operate on specific instances of the class, while instance methods belong to the class itself",
+        "c": "Static methods are called without creating an instance of the class, while instance methods require an instance of the class",
+        "d": "Static methods are called using the 'this' keyword, while instance methods are called without it"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 49,
+      "category_id": 1,
+      "question": "What is the purpose of the “git clone” command?",
+      "options": {
+        "a": "To create a copy of a local Git repository",
+        "b": "To create a copy of a remote Git repository on your local machine",
+        "c": "To delete a Git repository",
+        "d": "To merge branches in a Git repository"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 50,
+      "category_id": 1,
+      "question": "Which data structure is used for implementing a symbol table with key-value pairs?",
+      "options": {
+        "a": "Array",
+        "b": "Tree",
+        "c": "LinkedList",
+        "d": "HashTable"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 51,
+      "category_id": 2,
+      "question": "What will be the output of the following Python code?\n\n```\nfor i in range(1, 5):\n    print(i, end=' ')\n    if i % 2 == 0:\n        break\n```\n",
+      "options": {
+          "a": "1 2",
+          "b": "1 2 3 4",
+          "c": "1 2 3",
+          "d": "1"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 52,
+      "category_id": 2,
+      "question": "What is the output of the following Python code?\n\n```\nx = [i for i in range(5)]\nprint(x[0])",
+      "options": {
+          "a": "0",
+          "b": "1",
+          "c": "5",
+          "d": "Error"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 53,
+      "category_id": 2,
+      "question": "What will be the output of the following Python code?\n\n```\nprint(2 * 3 ** 2 / 4)",
+      "options": {
+          "a": "9",
+          "b": "4.5",
+          "c": "6",
+          "d": "3"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 54,
+      "category_id": 2,
+      "question": "What does the 'continue' statement do in Python?",
+      "options": {
+          "a": "Exits the loop",
+          "b": "Skips the current iteration and continues with the next",
+          "c": "Breaks the code",
+          "d": "Resumes the loop"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 55,
+      "category_id": 2,
+      "question": "What is the correct way to check if a key exists in a dictionary in Python?",
+      "options": {
+          "a": "key in dict",
+          "b": "dict.has_key(key)",
+          "c": "dict[key] is not None",
+          "d": "Both a and c"
+      },
+      "answer": "d"
+  },
+  {
+      "id": 56,
+      "category_id": 2,
+      "question": "What is the output of the following Python code?\n\n```\nprint('Python'[1:-1])",
+      "options": {
+          "a": "Pytho",
+          "b": "Pyth",
+          "c": "ytho",
+          "d": "yth"
+      },
+      "answer": "c"
+  },
+  {
+      "id": 57,
+      "category_id": 2,
+      "question": "What will be the output of the following Python code?\n\n```\nnum = 5\nprint(num >> 1)",
+      "options": {
+          "a": "2",
+          "b": "2.5",
+          "c": "3",
+          "d": "5"
+      },
+      "answer": "a"
+  },
+  {
+      "id": 58,
+      "category_id": 2,
+      "question": "What does the 'pass' statement do in Python?",
+      "options": {
+          "a": "It skips the current iteration of a loop",
+          "b": "It exits the loop",
+          "c": "It does nothing",
+          "d": "It breaks the loop"
+      },
+      "answer": "c"
+  },
+  {
+      "id": 59,
+      "category_id": 2,
+      "question": "What is the output of the following Python code?\n\n```\nprint(2 * 3)",
+      "options": {
+          "a": "5",
+          "b": "6",
+          "c": "2.5",
+          "d": "3.0"
+      },
+      "answer": "b"
+  },
+  {
+      "id": 60,
+      "category_id": 2,
+      "question": "What will be the output of the following Python code?\n\n```\ni = 1\nwhile True:\n    if i % 3 == 0:\n        break\n    print(i)\n    i += 1",
+      "options": {
+          "a": "1 2 3",
+          "b": "error",
+          "c": "1 2",
+          "d": "none of the mentioned"
+      },
+      "answer": "c"
+  },
+    {
+      "id": 61,
+      "category_id": 2,
+      "question": "What will be the output of the following Python code?\ni = 1\nwhile True:\n    if i % 3 == 0:\n        break\n    print(i)\n    i += 1",
+      "options": {
+        "a": "1 2 3",
+        "b": "error",
+        "c": "1 2",
+        "d": "none of the mentioned"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 62,
+      "category_id": 2,
+      "question": "Which of the following functions can help us find the version of Python that we are currently working on?",
+      "options": {
+        "a": "sys.version (1)",
+        "b": "sys.version (0)",
+        "c": "sys.version()",
+        "d": "sys.version"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 63,
+      "category_id": 2,
+      "question": "Python supports the creation of anonymous functions at runtime, using a construct called _________.",
+      "options": {
+        "a": "pi",
+        "b": "anonymous",
+        "c": "lambda",
+        "d": "none of the mentioned"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 64,
+      "category_id": 2,
+      "question": "What is the order of precedence in Python?",
+      "options": {
+        "a": "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction",
+        "b": "Exponential, Parentheses, Division, Multiplication, Addition, Subtraction",
+        "c": "Parentheses, Exponential, Multiplication, Division, Subtraction, Addition",
+        "d": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 65,
+      "category_id": 2,
+      "question": "What will be the output of the following Python code snippet if x=1?\nx = 1\nx << 2",
+      "options": {
+        "a": "4",
+        "b": "2",
+        "c": "1",
+        "d": "8"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 66,
+      "category_id": 2,
+      "question": "What does pip stand for in Python?",
+      "options": {
+        "a": "Pip Installs Python",
+        "b": "Pip Installs Packages",
+        "c": "Preferred Installer Program",
+        "d": "All of the mentioned"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 67,
+      "category_id": 2,
+      "question": "Which of the following is true for variable names in Python?",
+      "options": {
+        "a": "Underscore and ampersand are the only two special characters allowed",
+        "b": "Unlimited length",
+        "c": "All private members must have leading and trailing underscores",
+        "d": "None of the mentioned"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 68,
+      "category_id": 2,
+      "question": "What are the values of the following Python expressions?\n2 ** (3 ** 2)\n(2 ** 3) ** 2\n2 ** 3 ** 2",
+      "options": {
+        "a": "512, 64, 512",
+        "b": "512, 512, 512",
+        "c": "64, 512, 64",
+        "d": "64, 64, 64"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 69,
+      "category_id": 2,
+      "question": "What is the purpose of the with statement in Python?",
+      "options": {
+        "a": "It simplifies exception handling and resource management (e.g., file handling) by automatically closing resources when they are no longer needed.",
+        "b": "It is used to define conditional statements.",
+        "c": "It is used to create a loop that executes a block of code as long as a specified condition is true.",
+        "d": "It is used to create a new instance of a class."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 70,
+      "category_id": 2,
+      "question": "What does the __init__() method do in a Python class?",
+      "options": {
+        "a": "It is a destructor method that is automatically called when an object is destroyed.",
+        "b": "It is a method that is automatically called when an object is created, allowing the object to initialize its attributes.",
+        "c": "It is a method used to define the behavior of an object when it is printed.",
+        "d": "It is a method used to compare two objects for equality."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 71,
+      "category_id": 2,
+      "question": "What is the difference between == and is in Python?",
+      "options": {
+        "a": "== compares the values of two objects, while is checks if two objects refer to the same memory location.",
+        "b": "== checks if two objects refer to the same memory location, while is compares the values of two objects.",
+        "c": "== and is are interchangeable and have the same behavior in Python.",
+        "d": "== and is are used for different types of comparisons in Python."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 72,
+      "category_id": 2,
+      "question": "What does the enumerate() function do in Python?",
+      "options": {
+        "a": "It returns the sum of numbers in an iterable.",
+        "b": "It returns an iterator that produces pairs of index and value from an iterable.",
+        "c": "It removes duplicate elements from an iterable.",
+        "d": "It sorts the elements of an iterable in descending order."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 73,
+      "category_id": 2,
+      "question": "What is the purpose of the map() function in Python?",
+      "options": {
+        "a": "It applies a given function to each item in an iterable and returns an iterator of the results.",
+        "b": "It creates a new list by concatenating multiple lists.",
+        "c": "It filters an iterable based on a specified condition.",
+        "d": "It sorts an iterable in ascending order."
+      },
+      "answer": "a"
+    },
+    
+    {
+      "id": 74,
+      "category_id": 2,
+      "question": "What is the purpose of the `continue` statement in loops?",
+      "options": {
+        "a": "It skips the current iteration and proceeds to the next iteration of the loop.",
+        "b": "It terminates the loop immediately.",
+        "c": "It breaks the loop and exits the loop block.",
+        "d": "It reverses the direction of the loop."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 75,
+      "category_id": 2,
+      "question": "Which programming language is commonly used for game development?",
+      "options": {
+        "a": "Python",
+        "b": "C++",
+        "c": "Java",
+        "d": "JavaScript"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 76,
+      "category_id": 2,
+      "question": "What does the acronym “URL” stand for?",
+      "options": {
+        "a": "Universal Resource Language",
+        "b": "Uniform Resource Locator",
+        "c": "Unified Resource Link",
+        "d": "Unified Resource Locator"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 77,
+      "category_id": 2,
+      "question": "What is the difference between “stack” and “queue” data structures?",
+      "options": {
+        "a": "A stack follows the Last In, First Out (LIFO) principle, while a queue follows the First In, First Out (FIFO) principle.",
+        "b": "A stack follows the First In, First Out (FIFO) principle, while a queue follows the Last In, First Out (LIFO) principle.",
+        "c": "A stack can only contain elements of the same data type, while a queue can contain elements of different data types.",
+        "d": "A stack has a fixed size, while a queue can grow and shrink dynamically."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 78,
+      "category_id": 2,
+      "question": "What is the purpose of the `finally` block in exception handling?",
+      "options": {
+        "a": "It contains code that executes only if an exception occurs.",
+        "b": "It contains code that always executes, regardless of whether an exception occurs or not.",
+        "c": "It is used to raise an exception.",
+        "d": "It is used to handle specific types of exceptions."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 79,
+      "category_id": 2,
+      "question": "Which sorting algorithm has the best average-case time complexity for a large number of elements?",
+      "options": {
+        "a": "Quick Sort",
+        "b": "Merge Sort",
+        "c": "Bubble Sort",
+        "d": "Insertion Sort"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 80,
+      "category_id": 2,
+      "question": "What is the purpose of the `NaN` value in JavaScript?",
+      "options": {
+        "a": "It represents an undefined or unrepresentable value.",
+        "b": "It represents a numeric value.",
+        "c": "It represents a boolean value.",
+        "d": "It represents an array value."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 81,
+      "category_id": 2,
+      "question": "What is the difference between `static` and `instance` methods in Java?",
+      "options": {
+        "a": "`static` methods belong to the class itself, while `instance` methods operate on specific instances of the class.",
+        "b": "`static` methods are called with an instance of the class, while `instance` methods are called without an instance of the class.",
+        "c": "`static` methods cannot be overridden, while `instance` methods can be overridden.",
+        "d": "`static` methods can access instance variables directly, while `instance` methods cannot."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 82,
+      "category_id": 2,
+      "question": "What is the purpose of the `git clone` command?",
+      "options": {
+        "a": "It creates a new Git repository.",
+        "b": "It creates a copy of a remote Git repository on your local machine.",
+        "c": "It creates a branch in a Git repository.",
+        "d": "It merges changes from one branch into another."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 83,
+      "category_id": 2,
+      "question": "Which data structure is used for implementing a symbol table (dictionary)?",
+      "options": {
+        "a": "Array",
+        "b": "Linked List",
+        "c": "Hash Table",
+        "d": "Binary Search Tree"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 84,
+      "category_id": 2,
+      "question": "What is the significance of the `volatile` keyword in Java?",
+      "options": {
+        "a": "It ensures that a variable’s value is read from memory each time it is accessed.",
+        "b": "It prevents a variable’s value from being modified by multiple threads simultaneously.",
+        "c": "It specifies that a variable cannot be changed after initialization.",
+        "d": "It specifies that a variable cannot be accessed from outside its declaring class."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 85,
+      "category_id": 2,
+      "question": "What is the difference between `deep copy` and `shallow copy` of objects?",
+      "options": {
+        "a": "A deep copy duplicates the entire object, including nested objects, while a shallow copy only copies references.",
+        "b": "A shallow copy creates a completely independent copy of the original object and all its nested objects, while a deep copy creates a new object with references to the original nested objects.",
+        "c": "A deep copy creates a new object with references to the original nested objects, while a shallow copy duplicates the entire object, including nested objects.",
+        "d": "A shallow copy duplicates the entire object, including nested objects, while a deep copy creates a completely independent copy of the original object and all its nested objects."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 86,
+      "category_id": 2,
+      "question": "What is the purpose of the `break` statement in loops?",
+      "options": {
+        "a": "It continues to the next iteration of the loop.",
+        "b": "It skips the current iteration and proceeds to the next iteration of the loop.",
+        "c": "It terminates the loop immediately.",
+        "d": "It reverses the direction of the loop."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 87,
+      "category_id": 2,
+      "question": "What is the purpose of the `with` statement in Python?",
+      "options": {
+        "a": "It simplifies exception handling and resource management (e.g., file handling) by automatically closing resources when they are no longer needed.",
+        "b": "It allows dynamic memory allocation.",
+        "c": "It defines a new scope for variables.",
+        "d": "It is used for conditional branching."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 88,
+      "category_id": 2,
+      "question": "What does the `range()` function return in Python?",
+      "options": {
+        "a": "A single value within a specified range.",
+        "b": "A list of numbers within a specified range.",
+        "c": "An iterable sequence of numbers within a specified range.",
+        "d": "A tuple of numbers within a specified range."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 89,
+      "category_id": 2,
+      "question": "What is the difference between shallow copy and deep copy in Python?",
+      "options": {
+        "a": "A shallow copy creates a completely independent copy of the original object and all its nested objects, while a deep copy creates a new object with references to the original nested objects.",
+        "b": "A shallow copy duplicates the entire object, including nested objects, while a deep copy creates a completely independent copy of the original object and all its nested objects.",
+        "c": "A shallow copy creates a new object with references to the original nested objects, while a deep copy duplicates the entire object, including nested objects.",
+        "d": "A shallow copy duplicates the entire object, including nested objects, while a deep copy creates a new object with references to the original nested objects."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 90,
+      "category_id": 2,
+      "question": "What is the purpose of the `break` statement in a loop?",
+      "options": {
+        "a": "It continues to the next iteration of the loop.",
+        "b": "It skips the current iteration and proceeds to the next iteration of the loop.",
+        "c": "It terminates the loop immediately.",
+        "d": "It reverses the direction of the loop."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 91,
+      "category_id": 2,
+      "question": "What is the output of the following code snippet?\n\n```python\nx = [1, 2, 3]\ny = x\ny[0] = 10\nprint(x)\n```",
+      "options": {
+        "a": "[1, 2, 3]",
+        "b": "[10, 2, 3]",
+        "c": "[10, 2]",
+        "d": "[1, 10, 3]"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 92,
+      "category_id": 2,
+      "question": "What does the `enumerate()` function do in Python?",
+      "options": {
+        "a": "It returns an iterator that produces pairs of index and value from an iterable.",
+        "b": "It returns the length of an iterable.",
+        "c": "It returns the sum of an iterable.",
+        "d": "It returns the maximum value in an iterable."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 93,
+      "category_id": 2,
+      "question": "What is the purpose of the `map()` function in Python?",
+      "options": {
+        "a": "It converts an iterable to a list.",
+        "b": "It applies a given function to each item in an iterable and returns an iterator of the results.",
+        "c": "It filters elements from an iterable based on a specified condition.",
+        "d": "It sorts the elements of an iterable."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 94,
+      "category_id": 2,
+      "question": "What is the difference between `==` and `is` in Python?",
+      "options": {
+        "a": "`==` compares the values of two objects, while `is` checks if two objects refer to the same memory location.",
+        "b": "`==` checks if two objects refer to the same memory location, while `is` compares the values of two objects.",
+        "c": "`==` is used for assignment, while `is` is used for comparison.",
+        "d": "`==` compares the memory addresses of two objects, while `is` compares their values."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 95,
+      "category_id": 2,
+      "question": "What does the `__init__()` method do in a Python class?",
+      "options": {
+        "a": "It is a destructor method that cleans up resources when an object is destroyed.",
+        "b": "It is a static method that initializes class-level variables.",
+        "c": "It is a constructor method that initializes an object when it is created.",
+        "d": "It is a class method that creates a new instance of the class."
+      },
+      "answer": "c"
+    },
+    {
+      "id": 96,
+      "category_id": 2,
+      "question": "What is the purpose of the `super()` function in Python?",
+      "options": {
+        "a": "It allows a subclass to call a method from its parent class.",
+        "b": "It returns the superclass of a given class.",
+        "c": "It creates an instance of a superclass.",
+        "d": "It checks if a class is a subclass of another class."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 97,
+      "category_id": 2,
+      "question": "What is the order of precedence in Python?",
+      "options": {
+        "a": "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction",
+        "b": "Parentheses, Exponential, Multiplication, Division, Subtraction, Addition",
+        "c": "Multiplication, Division, Exponential, Parentheses, Subtraction, Addition",
+        "d": "Addition, Subtraction, Exponential, Multiplication, Division, Parentheses"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 98,
+      "category_id": 2,
+      "question": "What is the output of the following code snippet?\n\n```python\nx = 1\nx << 2\n```",
+      "options": {
+        "a": "4",
+        "b": "2",
+        "c": "1",
+        "d": "8"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 99,
+      "category_id": 2,
+      "question": "What is the purpose of the `len()` function in Python?",
+      "options": {
+        "a": "It returns the number of items in an object (e.g., list, string, dictionary).",
+        "b": "It converts a value to its corresponding length.",
+        "c": "It checks if an object is empty.",
+        "d": "It returns the length of the current scope."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 100,
+      "category_id": 2,
+      "question": "What is the difference between a list and a tuple in Python?",
+      "options": {
+        "a": "Lists are mutable (can be modified), while tuples are immutable (cannot be changed after creation).",
+        "b": "Tuples are mutable (can be modified), while lists are immutable (cannot be changed after creation).",
+        "c": "Lists and tuples are both mutable.",
+        "d": "Lists and tuples are both immutable."
+      },
+      "answer": "a"
+    },
+    {
+      "id": 101,
+      "category_id": 3,
+      "question": "What does HTML stand for?",
+      "options": {
+        "a": "Hyperlinks and Text Markup Language",
+        "b": "Home Tool Markup Language",
+        "c": "Hyper Text Markup Language",
+        "d": "None of the above"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 102,
+      "category_id": 3,
+      "question": "Which HTML element is used to define important text?",
+      "options": {
+        "a": "&lt;important&gt;",
+        "b": "&lt;b&gt;",
+        "c": "&lt;strong&gt;",
+        "d": "&lt;i&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 103,
+      "category_id": 3,
+      "question": "How can you create an ordered list?",
+      "options": {
+        "a": "&lt;ol&gt;",
+        "b": "&lt;ul&gt;",
+        "c": "&lt;dl&gt;",
+        "d": "&lt;list&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 104,
+      "category_id": 3,
+      "question": "Which HTML attribute is used to specify that an input field must be filled out?",
+      "options": {
+        "a": "placeholder",
+        "b": "required",
+        "c": "formvalidate",
+        "d": "validate"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 105,
+      "category_id": 3,
+      "question": "Which HTML element is used to specify a footer for a document or section?",
+      "options": {
+        "a": "&lt;bottom&gt;",
+        "b": "&lt;footer&gt;",
+        "c": "&lt;section&gt;",
+        "d": "&lt;aside&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 106,
+      "category_id": 3,
+      "question": "Which HTML element defines the title of a document?",
+      "options": {
+        "a": "&lt;meta&gt;",
+        "b": "&lt;title&gt;",
+        "c": "&lt;head&gt;",
+        "d": "&lt;caption&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 107,
+      "category_id": 3,
+      "question": "Which HTML element is used to display a large heading?",
+      "options": {
+        "a": "&lt;h6&gt;",
+        "b": "&lt;heading&gt;",
+        "c": "&lt;h1&gt;",
+        "d": "&lt;head&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 108,
+      "category_id": 3,
+      "question": "What is the correct HTML for creating a hyperlink?",
+      "options": {
+        "a": "&lt;a href=\"http://www.example.com\"&gt;example&lt;/a&gt;",
+        "b": "&lt;a url=\"http://www.example.com\"&gt;example&lt;/a&gt;",
+        "c": "&lt;a&gt;http://www.example.com&lt;/a&gt;",
+        "d": "&lt;a name=\"http://www.example.com\"&gt;example&lt;/a&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 109,
+      "category_id": 3,
+      "question": "Which HTML element is used to specify a section of a page that links to other pages or to parts within the page?",
+      "options": {
+        "a": "&lt;nav&gt;",
+        "b": "&lt;section&gt;",
+        "c": "&lt;header&gt;",
+        "d": "&lt;footer&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 110,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a table header?",
+      "options": {
+        "a": "&lt;th&gt;",
+        "b": "&lt;thead&gt;",
+        "c": "&lt;tr&gt;",
+        "d": "&lt;td&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 111,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a form for user input?",
+      "options": {
+        "a": "&lt;form&gt;",
+        "b": "&lt;input&gt;",
+        "c": "&lt;fieldset&gt;",
+        "d": "&lt;label&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 112,
+      "category_id": 3,
+      "question": "Which HTML element is used to define options in a dropdown selection list?",
+      "options": {
+        "a": "&lt;datalist&gt;",
+        "b": "&lt;select&gt;",
+        "c": "&lt;option&gt;",
+        "d": "&lt;list&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 113,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a text input control?",
+      "options": {
+        "a": "&lt;textfield&gt;",
+        "b": "&lt;text&gt;",
+        "c": "&lt;input&gt;",
+        "d": "&lt;control&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 114,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a paragraph?",
+      "options": {
+        "a": "&lt;p&gt;",
+        "b": "&lt;paragraph&gt;",
+        "c": "&lt;pg&gt;",
+        "d": "&lt;para&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 115,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a line break?",
+      "options": {
+        "a": "&lt;lb&gt;",
+        "b": "&lt;br&gt;",
+        "c": "&lt;break&gt;",
+        "d": "&lt;line&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 116,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a list item?",
+      "options": {
+        "a": "&lt;li&gt;",
+        "b": "&lt;item&gt;",
+        "c": "&lt;list&gt;",
+        "d": "&lt;il&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 117,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a table cell?",
+      "options": {
+        "a": "&lt;cell&gt;",
+        "b": "&lt;td&gt;",
+        "c": "&lt;tablecell&gt;",
+        "d": "&lt;tc&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 118,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a table row?",
+      "options": {
+        "a": "&lt;row&gt;",
+        "b": "&lt;tr&gt;",
+        "c": "&lt;tablerow&gt;",
+        "d": "&lt;rw&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 119,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a table body?",
+      "options": {
+        "a": "&lt;tbody&gt;",
+        "b": "&lt;body&gt;",
+        "c": "&lt;tablebody&gt;",
+        "d": "&lt;tb&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 120,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a table head?",
+      "options": {
+        "a": "&lt;thead&gt;",
+        "b": "&lt;head&gt;",
+        "c": "&lt;tablehead&gt;",
+        "d": "&lt;th&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 121,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a table footer?",
+      "options": {
+        "a": "&lt;tfoot&gt;",
+        "b": "&lt;footer&gt;",
+        "c": "&lt;tablefooter&gt;",
+        "d": "&lt;tf&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 122,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a division or a section in an HTML document?",
+      "options": {
+        "a": "&lt;div&gt;",
+        "b": "&lt;section&gt;",
+        "c": "&lt;article&gt;",
+        "d": "&lt;split&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 123,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a header for a document or section?",
+      "options": {
+        "a": "&lt;header&gt;",
+        "b": "&lt;head&gt;",
+        "c": "&lt;top&gt;",
+        "d": "&lt;heading&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 124,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a thematic break in an HTML page?",
+      "options": {
+        "a": "&lt;tb&gt;",
+        "b": "&lt;break&gt;",
+        "c": "&lt;br&gt;",
+        "d": "&lt;hr&gt;"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 125,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a short quotation?",
+      "options": {
+        "a": "&lt;quote&gt;",
+        "b": "&lt;q&gt;",
+        "c": "&lt;short&gt;",
+        "d": "&lt;sq&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 126,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a long quotation?",
+      "options": {
+        "a": "&lt;quote&gt;",
+        "b": "&lt;q&gt;",
+        "c": "&lt;blockquote&gt;",
+        "d": "&lt;lq&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 127,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a caption for a figure element?",
+      "options": {
+        "a": "&lt;caption&gt;",
+        "b": "&lt;figcaption&gt;",
+        "c": "&lt;legend&gt;",
+        "d": "&lt;label&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 128,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a figure in a document?",
+      "options": {
+        "a": "&lt;figure&gt;",
+        "b": "&lt;img&gt;",
+        "c": "&lt;picture&gt;",
+        "d": "&lt;fig&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 129,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a section in a document?",
+      "options": {
+        "a": "&lt;div&gt;",
+        "b": "&lt;section&gt;",
+        "c": "&lt;article&gt;",
+        "d": "&lt;split&gt;"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 130,
+      "category_id": 3,
+      "question": "Which HTML element is used to define an article in a document?",
+      "options": {
+        "a": "&lt;div&gt;",
+        "b": "&lt;section&gt;",
+        "c": "&lt;article&gt;",
+        "d": "&lt;split&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 131,
+      "category_id": 3,
+      "question": "Which HTML element is used to define navigation links?",
+      "options": {
+        "a": "&lt;nav&gt;",
+        "b": "&lt;navigate&gt;",
+        "c": "&lt;links&gt;",
+        "d": "&lt;menu&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 132,
+      "category_id": 3,
+      "question": "Which HTML element is used to define content aside from the page content?",
+      "options": {
+        "a": "&lt;aside&gt;",
+        "b": "&lt;section&gt;",
+        "c": "&lt;article&gt;",
+        "d": "&lt;split&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 133,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a header for a document or section?",
+      "options": {
+        "a": "&lt;header&gt;",
+        "b": "&lt;head&gt;",
+        "c": "&lt;top&gt;",
+        "d": "&lt;heading&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 134,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a footer for a document or section?",
+      "options": {
+        "a": "&lt;footer&gt;",
+        "b": "&lt;bottom&gt;",
+        "c": "&lt;foot&gt;",
+        "d": "&lt;end&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 135,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a date/time?",
+      "options": {
+        "a": "&lt;time&gt;",
+        "b": "&lt;date&gt;",
+        "c": "&lt;datetime&gt;",
+        "d": "&lt;calendar&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 136,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a scalar measurement within a known range?",
+      "options": {
+        "a": "&lt;range&gt;",
+        "b": "&lt;measure&gt;",
+        "c": "&lt;meter&gt;",
+        "d": "&lt;scalar&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 137,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a progress bar for a task that takes a long time?",
+      "options": {
+        "a": "&lt;progress&gt;",
+        "b": "&lt;bar&gt;",
+        "c": "&lt;task&gt;",
+        "d": "&lt;loading&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 138,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a command button that a user can invoke?",
+      "options": {
+        "a": "&lt;button&gt;",
+        "b": "&lt;command&gt;",
+        "c": "&lt;invoke&gt;",
+        "d": "&lt;click&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 139,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a drop-down list?",
+      "options": {
+        "a": "&lt;dropdown&gt;",
+        "b": "&lt;list&gt;",
+        "c": "&lt;select&gt;",
+        "d": "&lt;option&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 140,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a list of options for input controls?",
+      "options": {
+        "a": "&lt;datalist&gt;",
+        "b": "&lt;list&gt;",
+        "c": "&lt;options&gt;",
+        "d": "&lt;data&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 141,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a key-pair generator field in a form?",
+      "options": {
+        "a": "&lt;keygen&gt;",
+        "b": "&lt;generator&gt;",
+        "c": "&lt;pair&gt;",
+        "d": "&lt;key&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 142,
+      "category_id": 3,
+      "question": "Which HTML element is used to define output from a script?",
+      "options": {
+        "a": "&lt;output&gt;",
+        "b": "&lt;script&gt;",
+        "c": "&lt;result&gt;",
+        "d": "&lt;return&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 143,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a scalar measurement within a known range?",
+      "options": {
+        "a": "&lt;range&gt;",
+        "b": "&lt;measure&gt;",
+        "c": "&lt;meter&gt;",
+        "d": "&lt;scalar&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 144,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a progress bar for a task that takes a long time?",
+      "options": {
+        "a": "&lt;progress&gt;",
+        "b": "&lt;bar&gt;",
+        "c": "&lt;task&gt;",
+        "d": "&lt;loading&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 145,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a command button that a user can invoke?",
+      "options": {
+        "a": "&lt;button&gt;",
+        "b": "&lt;command&gt;",
+        "c": "&lt;invoke&gt;",
+        "d": "&lt;click&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 146,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a drop-down list?",
+      "options": {
+        "a": "&lt;dropdown&gt;",
+        "b": "&lt;list&gt;",
+        "c": "&lt;select&gt;",
+        "d": "&lt;option&gt;"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 147,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a list of options for input controls?",
+      "options": {
+        "a": "&lt;datalist&gt;",
+        "b": "&lt;list&gt;",
+        "c": "&lt;options&gt;",
+        "d": "&lt;data&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 148,
+      "category_id": 3,
+      "question": "Which HTML element is used to define a key-pair generator field in a form?",
+      "options": {
+        "a": "&lt;keygen&gt;",
+        "b": "&lt;generator&gt;",
+        "c": "&lt;pair&gt;",
+        "d": "&lt;key&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 149,
+      "category_id": 3,
+      "question": "Which HTML element is used to define output from a script?",
+      "options": {
+        "a": "&lt;output&gt;",
+        "b": "&lt;script&gt;",
+        "c": "&lt;result&gt;",
+        "d": "&lt;return&gt;"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 150,
+      "category_id": 3,
+      "question": "In HTML, what does the &lt;video&gt; element define?",
+      "options": {
+        "a": "Defines a sound or music file",
+        "b": "Defines a container for an external application or interactive content (a plug-in)",
+        "c": "Defines a video or movie",
+        "d": "Defines embedded content"
+      },
+      "answer": "c"
+    },
+  {
+    "id": 151,
+    "category_id": 4,
+    "question": "What does CSS stand for?",
+    "options": {
+      "a": "Cascading Style Sheets",
+      "b": "Colorful Style Sheets",
+      "c": "Creative Style Sheets",
+      "d": "Computer Style Sheets"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 152,
+    "category_id": 4,
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": {
+      "a": "font",
+      "b": "class",
+      "c": "styles",
+      "d": "style"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 153,
+    "category_id": 4,
+    "question": "Which is the correct CSS syntax?",
+    "options": {
+      "a": "body:color=black;",
+      "b": "{body;color:black;}",
+      "c": "{body:color=black;}",
+      "d": "body {color: black;}"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 154,
+    "category_id": 4,
+    "question": "How do you insert a comment in a CSS file?",
+    "options": {
+      "a": "// this is a comment",
+      "b": "/* this is a comment */",
+      "c": "<!-- this is a comment -->",
+      "d": "// this is a comment //"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 155,
+    "category_id": 4,
+    "question": "Which property is used to change the background color?",
+    "options": {
+      "a": "bgcolor",
+      "b": "color",
+      "c": "background-color",
+      "d": "bg-color"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 156,
+    "category_id": 4,
+    "question": "How do you add a background color for all <h1> elements?",
+    "options": {
+      "a": "all.h1 {background-color: #FFFFFF;}",
+      "b": "h1.all {background-color: #FFFFFF;}",
+      "c": "h1 {background-color: #FFFFFF;}",
+      "d": "h1.background-color: #FFFFFF;"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 157,
+    "category_id": 4,
+    "question": "Which CSS property controls the text size?",
+    "options": {
+      "a": "font-size",
+      "b": "text-style",
+      "c": "text-size",
+      "d": "font-style"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 158,
+    "category_id": 4,
+    "question": "What is the correct CSS syntax for making all the <p> elements bold?",
+    "options": {
+      "a": "p {text-size:bold;}",
+      "b": "p {font-weight:bold;}",
+      "c": "<p> {text-size:bold;}",
+      "d": "p {text-style:bold;}"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 159,
+    "category_id": 4,
+    "question": "How do you display hyperlinks without an underline?",
+    "options": {
+      "a": "a {text-decoration:no-underline;}",
+      "b": "a {decoration:no-underline;}",
+      "c": "a {underline:none;}",
+      "d": "a {text-decoration:none;}"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 160,
+    "category_id": 4,
+    "question": "How do you make each word in a text start with a capital letter?",
+    "options": {
+      "a": "text-transform:capitalize",
+      "b": "text-transform:uppercase",
+      "c": "You can't do that with CSS",
+      "d": "text-transform:lowercase"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 161,
+    "category_id": 4,
+    "question": "How do you select an element with id “demo”?",
+    "options": {
+      "a": ".demo",
+      "b": "#demo",
+      "c": "*demo",
+      "d": "demo"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 162,
+    "category_id": 4,
+    "question": "How do you select elements with class name “test”?",
+    "options": {
+      "a": "#test",
+      "b": ".test",
+      "c": "*test",
+      "d": "test"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 163,
+    "category_id": 4,
+    "question": "How do you select all p elements inside div elements?",
+    "options": {
+      "a": "div p",
+      "b": "div + p",
+      "c": "div.p",
+      "d": "p > div"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 164,
+    "category_id": 4,
+    "question": "What is the default value of the position property?",
+    "options": {
+      "a": "relative",
+      "b": "absolute",
+      "c": "fixed",
+      "d": "static"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 165,
+    "category_id": 4,
+    "question": "How do you insert a comment in a CSS file?",
+    "options": {
+      "a": "// this is a comment",
+      "b": "/* this is a comment */",
+      "c": "<!-- this is a comment -->",
+      "d": "// this is a comment //"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 166,
+    "category_id": 4,
+    "question": "What property do you use to create space between the element’s border and inner content?",
+    "options": {
+      "a": "margin",
+      "b": "border",
+      "c": "padding",
+      "d": "spacing"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 167,
+    "category_id": 4,
+    "question": "How do you make a list that lists its items with squares?",
+    "options": {
+      "a": "list-style-type: square;",
+      "b": "list-type: square;",
+      "c": "list: square;",
+      "d": "list-style: square;"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 168,
+    "category_id": 4,
+    "question": "How do you select an element which has “info” class and is inside an element which has “container” class?",
+    "options": {
+      "a": ".container .info",
+      "b": ".container + .info",
+      "c": ".container > .info",
+      "d": ".info > .container"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 169,
+    "category_id": 4,
+    "question": "What CSS property is used to set the text color of an element?",
+    "options": {
+      "a": "text-color",
+      "b": "color",
+      "c": "font-color",
+      "d": "text-style"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 170,
+    "category_id": 4,
+    "question": "What CSS property is used to change the left margin of an element?",
+    "options": {
+      "a": "indent",
+      "b": "spacing",
+      "c": "margin-left",
+      "d": "padding-left"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 171,
+    "category_id": 4,
+    "question": "Which property is used to change the font of an element?",
+    "options": {
+      "a": "font-family",
+      "b": "text-style",
+      "c": "text-family",
+      "d": "font-style"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 172,
+    "category_id": 4,
+    "question": "Which property is used to underline text?",
+    "options": {
+      "a": "font-style: underline;",
+      "b": "text-decoration: underline;",
+      "c": "text-style: underline;",
+      "d": "font: underline;"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 173,
+    "category_id": 4,
+    "question": "Which property is used to control the scrolling of an image in the background?",
+    "options": {
+      "a": "background-scroll",
+      "b": "background-attachment",
+      "c": "background-position",
+      "d": "background-repeat"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 174,
+    "category_id": 4,
+    "question": "Which property is used to specify the stacking order of elements?",
+    "options": {
+      "a": "clip",
+      "b": "overflow",
+      "c": "z-index",
+      "d": "display"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 175,
+    "category_id": 4,
+    "question": "Which property specifies the right padding of an element?",
+    "options": {
+      "a": "padding-right",
+      "b": "padding",
+      "c": "margin-right",
+      "d": "spacing-right"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 176,
+    "category_id": 4,
+    "question": "Which property is used to set the text alignment?",
+    "options": {
+      "a": "text-align",
+      "b": "align-text",
+      "c": "text",
+      "d": "align"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 177,
+    "category_id": 4,
+    "question": "Which property is used to set the vertical alignment of content in a table cell?",
+    "options": {
+      "a": "vertical-align",
+      "b": "align-vertical",
+      "c": "vertical",
+      "d": "align"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 178,
+    "category_id": 4,
+    "question": "Which property is used to set the width of an element?",
+    "options": {
+      "a": "width",
+      "b": "size",
+      "c": "length",
+      "d": "area"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 179,
+    "category_id": 4,
+    "question": "Which property is used to set the height of an element?",
+    "options": {
+      "a": "height",
+      "b": "size",
+      "c": "length",
+      "d": "area"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 180,
+    "category_id": 4,
+    "question": "Which property is used to set the font style (italic or oblique)?",
+    "options": {
+      "a": "font-style",
+      "b": "style-font",
+      "c": "font",
+      "d": "style"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 181,
+    "category_id": 4,
+    "question": "Which property is used to set the font weight (bold)?",
+    "options": {
+      "a": "font-weight",
+      "b": "weight-font",
+      "c": "font",
+      "d": "weight"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 182,
+    "category_id": 4,
+    "question": "Which property is used to set the text decoration (underline, overline)?",
+    "options": {
+      "a": "text-decoration",
+      "b": "decoration-text",
+      "c": "text",
+      "d": "decoration"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 183,
+    "category_id": 4,
+    "question": "Which property is used to set the text transformation (uppercase, lowercase)?",
+    "options": {
+      "a": "text-transform",
+      "b": "transform-text",
+      "c": "text",
+      "d": "transform"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 184,
+    "category_id": 4,
+    "question": "Which property is used to set the line height?",
+    "options": {
+      "a": "line-height",
+      "b": "height-line",
+      "c": "line",
+      "d": "height"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 185,
+    "category_id": 4,
+    "question": "Which property is used to set the letter spacing?",
+    "options": {
+      "a": "letter-spacing",
+      "b": "spacing-letter",
+      "c": "letter",
+      "d": "spacing"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 186,
+    "category_id": 4,
+    "question": "Which property is used to set the word spacing?",
+    "options": {
+      "a": "word-spacing",
+      "b": "spacing-word",
+      "c": "word",
+      "d": "spacing"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 187,
+    "category_id": 4,
+    "question": "Which property is used to set the text direction?",
+    "options": {
+      "a": "direction",
+      "b": "text-direction",
+      "c": "text",
+      "d": "dir"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 188,
+    "category_id": 4,
+    "question": "Which property is used to set the text indentation?",
+    "options": {
+      "a": "text-indent",
+      "b": "indent-text",
+      "c": "text",
+      "d": "indent"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 189,
+    "category_id": 4,
+    "question": "Which property is used to set the white space inside an element?",
+    "options": {
+      "a": "white-space",
+      "b": "space-white",
+      "c": "white",
+      "d": "space"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 190,
+    "category_id": 4,
+    "question": "Which property is used to control the text overflow in an element?",
+    "options": {
+      "a": "text-overflow",
+      "b": "overflow-text",
+      "c": "text",
+      "d": "overflow"
+    },
+    "answer": "a"
+  }, {
+    "id": 191,
+    "category_id": 4,
+    "question": "Which property is used to set the border style?",
+    "options": {
+      "a": "border-style",
+      "b": "style-border",
+      "c": "border",
+      "d": "style"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 192,
+    "category_id": 4,
+    "question": "Which property is used to set the border color?",
+    "options": {
+      "a": "border-color",
+      "b": "color-border",
+      "c": "border",
+      "d": "color"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 193,
+    "category_id": 4,
+    "question": "Which property is used to set the border width?",
+    "options": {
+      "a": "border-width",
+      "b": "width-border",
+      "c": "border",
+      "d": "width"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 194,
+    "category_id": 4,
+    "question": "Which property is used to set the border radius (rounded corners)?",
+    "options": {
+      "a": "border-radius",
+      "b": "radius-border",
+      "c": "border",
+      "d": "radius"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 195,
+    "category_id": 4,
+    "question": "Which property is used to set the opacity of an element?",
+    "options": {
+      "a": "opacity",
+      "b": "transparent",
+      "c": "alpha",
+      "d": "clear"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 196,
+    "category_id": 4,
+    "question": "Which property is used to set the background image of an element?",
+    "options": {
+      "a": "background-image",
+      "b": "image-background",
+      "c": "background",
+      "d": "image"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 197,
+    "category_id": 4,
+    "question": "Which property is used to repeat a background image?",
+    "options": {
+      "a": "background-repeat",
+      "b": "repeat-background",
+      "c": "background",
+      "d": "repeat"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 198,
+    "category_id": 4,
+    "question": "Which property is used to position a background image?",
+    "options": {
+      "a": "background-position",
+      "b": "position-background",
+      "c": "background",
+      "d": "position"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 199,
+    "category_id": 4,
+    "question": "Which property is used to attach a background image so that it scrolls with the rest of the page?",
+    "options": {
+      "a": "background-attachment",
+      "b": "attachment-background",
+      "c": "background",
+      "d": "attachment"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 200,
+    "category_id": 4,
+    "question": "Which property is used to specify the size of a background image?",
+    "options": {
+      "a": "background-size",
+      "b": "size-background",
+      "c": "background",
+      "d": "size"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 201,
+    "category_id": 5,
+    "question": "What is the correct JavaScript syntax to change the content of the HTML element below?",
+    "options": {
+      "a": "document.getElementByName.innerHTML ='Hello World!';",
+      "b": "document.getElementById.innerHTML = 'Hello World!';",
+      "c": "document.getElementinnerHTML ='Hello World!';",
+      "d": "#demo.innerHTML = 'Hello World!';"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 202,
+    "category_id": 5,
+    "question": "Where is the correct place to insert a JavaScript?",
+    "options": {
+      "a": "The &lt;body&gt; section",
+      "b": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
+      "c": "The &lt;head&gt; section",
+      "d": "After the &lt;html&gt; tag"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 203,
+    "category_id": 5,
+    "question": "What is the correct syntax for referring to an external script called “xxx.js”?",
+    "options": {
+      "a": "&lt;script src='xxx.js'&gt;",
+      "b": "&lt;script href='xxx.js'&gt;",
+      "c": "&lt;script name='xxx.js'&gt;",
+      "d": "&lt;script file='xxx.js'&gt;"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 204,
+    "category_id": 5,
+    "question": "The external JavaScript file must contain the &lt;script&gt; tag.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 205,
+    "category_id": 5,
+    "question": "How do you write “Hello World” in an alert box?",
+    "options": {
+      "a": "msgBox(\"Hello World\");",
+      "b": "alertBox(\"Hello World\");",
+      "c": "msg(\"Hello World\");",
+      "d": "alert(\"Hello World\");"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 206,
+    "category_id": 5,
+    "question": "What is the correct way to write a JavaScript array?",
+    "options": {
+      "a": "var colors = [\"red\", \"green\", \"blue\"];",
+      "b": "var colors = \"red\", \"green\", \"blue\";",
+      "c": "var colors = {\"red\", \"green\", \"blue\"};",
+      "d": "var colors = (\"red\", \"green\", \"blue\");"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 207,
+    "category_id": 5,
+    "question": "How do you access the first element of a JavaScript array?",
+    "options": {
+      "a": "colors[0]",
+      "b": "colors.first",
+      "c": "colors(1)",
+      "d": "colors.firstElement"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 208,
+    "category_id": 5,
+    "question": "How do you add a new element to an array in JavaScript?",
+    "options": {
+      "a": "push()",
+      "b": "add()",
+      "c": "append()",
+      "d": "insert()"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 209,
+    "category_id": 5,
+    "question": "What is the correct JavaScript syntax for opening a new window?",
+    "options": {
+      "a": "window.open(\"url\");",
+      "b": "open.window(\"url\");",
+      "c": "window.new(\"url\");",
+      "d": "open(\"url\");"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 210,
+    "category_id": 5,
+    "question": "How do you create a function in JavaScript?",
+    "options": {
+      "a": "function myFunction() {}",
+      "b": "myFunction = function() {}",
+      "c": "function = myFunction() {}",
+      "d": "createFunction myFunction() {}"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 211,
+    "category_id": 5,
+    "question": "Which method is used to remove the last element from an array and return that element?",
+    "options": {
+      "a": "pop()",
+      "b": "remove()",
+      "c": "delete()",
+      "d": "slice()"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 212,
+    "category_id": 5,
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "options": {
+      "a": "Math.round(7.25)",
+      "b": "Math.rnd(7.25)",
+      "c": "round(7.25)",
+      "d": "rnd(7.25)"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 213,
+    "category_id": 5,
+    "question": "How do you find the number with the highest value of x and y?",
+    "options": {
+      "a": "Math.max(x, y)",
+      "b": "max(x, y)",
+      "c": "Math.largest(x, y)",
+      "d": "largest(x, y)"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 214,
+    "category_id": 5,
+    "question": "How do you find the square root of a number in JavaScript?",
+    "options": {
+      "a": "Math.sqrt(x)",
+      "b": "sqrt(x)",
+      "c": "Math.squareRoot(x)",
+      "d": "squareRoot(x)"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 215,
+    "category_id": 5,
+    "question": "What is the correct JavaScript syntax for creating a date object?",
+    "options": {
+      "a": "var date = new Date();",
+      "b": "var date = Date();",
+      "c": "var date = create.Date();",
+      "d": "var date = getDate();"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 216,
+    "category_id": 5,
+    "question": "How do you compare two values for equality in JavaScript?",
+    "options": {
+      "a": "==",
+      "b": "=",
+      "c": "===",
+      "d": "!="
+    },
+    "answer": "a"
+  },
+  {
+    "id": 217,
+    "category_id": 5,
+    "question": "What is the correct way to add comments in JavaScript?",
+    "options": {
+      "a": "// This is a comment",
+      "b": "&lt;!-- This is a comment --&gt;",
+      "c": "/! This is a comment !/",
+      "d": "/* This is a comment */"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 218,
+    "category_id": 5,
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": {
+      "a": "==",
+      "b": "=",
+      "c": ":=",
+      "d": "->"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 219,
+    "category_id": 5,
+    "question": "How do you declare a JavaScript variable?",
+    "options": {
+      "a": "variable myVar;",
+      "b": "v myVar;",
+      "c": "var myVar;",
+      "d": "myVar;"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 220,
+    "category_id": 5,
+    "question": "How do you add a comment in JavaScript?",
+    "options": {
+      "a": "// This is a comment",
+      "b": "&lt;!-- This is a comment --&gt;",
+      "c": "' This is a comment",
+      "d": "/* This is a comment */"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 221,
+    "category_id": 5,
+    "question": "Which built-in method returns the length of a string?",
+    "options": {
+      "a": "length()",
+      "b": "size()",
+      "c": "index()",
+      "d": "None of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 222,
+    "category_id": 5,
+    "question": "Which function converts a string to uppercase letters?",
+    "options": {
+      "a": "toUpperCase()",
+      "b": "toUppercase()",
+      "c": "upper()",
+      "d": "upperCase()"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 223,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript variable name?",
+    "options": {
+      "a": "myVar",
+      "b": "my-var",
+      "c": "_myVar",
+      "d": "1myVar"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 224,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript data type?",
+    "options": {
+      "a": "String",
+      "b": "Boolean",
+      "c": "Integer",
+      "d": "Undefined"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 225,
+    "category_id": 5,
+    "question": "Which of the following is the correct way to write a JavaScript comment for a single line?",
+    "options": {
+      "a": "// This is a comment",
+      "b": "&lt;!-- This is a comment --&gt;",
+      "c": "/* This is a comment */",
+      "d": "' This is a comment"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 226,
+    "category_id": 5,
+    "question": "Which of the following is the correct syntax to declare a JavaScript variable?",
+    "options": {
+      "a": "v myVar;",
+      "b": "variable myVar;",
+      "c": "var myVar;",
+      "d": "myVar;"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 227,
+    "category_id": 5,
+    "question": "What is the result of 5 + \"5\" in JavaScript?",
+    "options": {
+      "a": "10",
+      "b": "55",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 228,
+    "category_id": 5,
+    "question": "Which method is used to convert a string to a number in JavaScript?",
+    "options": {
+      "a": "parseInt()",
+      "b": "toString()",
+      "c": "toFixed()",
+      "d": "toNumber()"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 229,
+    "category_id": 5,
+    "question": "Which of the following is the correct way to write a JavaScript array?",
+    "options": {
+      "a": "var colors = [\"red\", \"green\", \"blue\"];",
+      "b": "var colors = \"red\", \"green\", \"blue\";",
+      "c": "var colors = [\"red\", \"green\", \"blue\"];",
+      "d": "var colors = (\"red\", \"green\", \"blue\");"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 230,
+    "category_id": 5,
+    "question": "Which of the following is the correct way to declare and initialize an array in JavaScript?",
+    "options": {
+      "a": "var myArray = [];",
+      "b": "var myArray = new Array();",
+      "c": "var myArray[];",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 231,
+    "category_id": 5,
+    "question": "Which method is used to remove the last element from an array in JavaScript?",
+    "options": {
+      "a": "shift()",
+      "b": "pop()",
+      "c": "remove()",
+      "d": "splice()"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 232,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript keyword?",
+    "options": {
+      "a": "if",
+      "b": "else",
+      "c": "function",
+      "d": "var"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 233,
+    "category_id": 5,
+    "question": "Which of the following is not a JavaScript data type?",
+    "options": {
+      "a": "Number",
+      "b": "String",
+      "c": "Float",
+      "d": "Undefined"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 234,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript operator?",
+    "options": {
+      "a": "!==",
+      "b": "!!",
+      "c": "<=>",
+      "d": "&lt;="
+    },
+    "answer": "c"
+  },
+  {
+    "id": 235,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript statement?",
+    "options": {
+      "a": "var x;",
+      "b": "x = 2;",
+      "c": "2 + 2;",
+      "d": "if (x == 5) { // do something }"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 236,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript variable name?",
+    "options": {
+      "a": "myVar",
+      "b": "my-var",
+      "c": "_myVar",
+      "d": "1myVar"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 237,
+    "category_id": 5,
+    "question": "What will the following code output: console.log(Boolean(0));",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "0",
+      "d": "undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 238,
+    "category_id": 5,
+    "question": "What will the following code output: console.log(Boolean('Hello'));",
+    "options": {
+      "a": "Hello",
+      "b": "true",
+      "c": "false",
+      "d": "undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 239,
+    "category_id": 5,
+    "question": "What will the following code output: console.log(Boolean(''));",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "''",
+      "d": "undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 240,
+    "category_id": 5,
+    "question": "What will the following code output: console.log(Boolean(100));",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "100",
+      "d": "undefined"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 241,
+    "category_id": 5,
+    "question": "How do you write “Hello World” in an alert box?",
+    "options": {
+      "a": "msgBox(\"Hello World\");",
+      "b": "alertBox(\"Hello World\");",
+      "c": "msg(\"Hello World\");",
+      "d": "alert(\"Hello World\");"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 242,
+    "category_id": 5,
+    "question": "What is the output of the following code?\n\nvar a = 5;\nvar b = 10;\nconsole.log(\"The sum of \" + a + \" and \" + b + \" is \" + (a + b));",
+    "options": {
+      "a": "The sum of 5 and 10 is 15",
+      "b": "The sum of a and b is 15",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 243,
+    "category_id": 5,
+    "question": "Which built-in method returns the length of a string?",
+    "options": {
+      "a": "length()",
+      "b": "size()",
+      "c": "index()",
+      "d": "None of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 244,
+    "category_id": 5,
+    "question": "Which function converts a string to uppercase letters?",
+    "options": {
+      "a": "toUpperCase()",
+      "b": "toUppercase()",
+      "c": "upper()",
+      "d": "upperCase()"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 245,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript variable name?",
+    "options": {
+      "a": "myVar",
+      "b": "my-var",
+      "c": "_myVar",
+      "d": "1myVar"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 246,
+    "category_id": 5,
+    "question": "Which of the following is not a valid JavaScript data type?",
+    "options": {
+      "a": "String",
+      "b": "Boolean",
+      "c": "Integer",
+      "d": "Undefined"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 247,
+    "category_id": 5,
+    "question": "Which of the following is the correct way to write a JavaScript comment for a single line?",
+    "options": {
+      "a": "// This is a comment",
+      "b": "<!-- This is a comment -->",
+      "c": "/* This is a comment */",
+      "d": "' This is a comment"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 248,
+    "category_id": 5,
+    "question": "Which of the following is the correct syntax to declare a JavaScript variable?",
+    "options": {
+      "a": "v myVar;",
+      "b": "variable myVar;",
+      "c": "var myVar;",
+      "d": "myVar;"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 249,
+    "category_id": 5,
+    "question": "What is the result of 5 + \"5\" in JavaScript?",
+    "options": {
+      "a": "10",
+      "b": "55",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 250,
+    "category_id": 5,
+    "question": "Which method is used to convert a string to a number in JavaScript?",
+    "options": {
+      "a": "parseInt()",
+      "b": "toString()",
+      "c": "toFixed()",
+      "d": "toNumber()"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 251,
+    "category_id": 6,
+    "question": "What is the syntax for declaring a variable in C++?",
+    "options": {
+      "a": "variableType variableName;",
+      "b": "type variableName;",
+      "c": "var variableName;",
+      "d": "None of the above"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 252,
+    "category_id": 6,
+    "question": "Which of the following is a valid identifier in C++?",
+    "options": {
+      "a": "int",
+      "b": "3var",
+      "c": "_var",
+      "d": "var-name"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 253,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5;\n    cout << ++a;\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 254,
+    "category_id": 6,
+    "question": "Which operator is used to access the value stored in a variable in C++?",
+    "options": {
+      "a": "*",
+      "b": ".",
+      "c": "->",
+      "d": "&"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 255,
+    "category_id": 6,
+    "question": "What is the result of the following expression in C++?\n\n5 / 2",
+    "options": {
+      "a": "2.5",
+      "b": "2",
+      "c": "2.0",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 256,
+    "category_id": 6,
+    "question": "Which header file should be included to perform input and output operations in C++?",
+    "options": {
+      "a": "<inputoutput.h>",
+      "b": "<stdio.h>",
+      "c": "<iostream.h>",
+      "d": "<input.h>"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 257,
+    "category_id": 6,
+    "question": "Which data type is used to store a single character in C++?",
+    "options": {
+      "a": "char",
+      "b": "string",
+      "c": "character",
+      "d": "chr"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 258,
+    "category_id": 6,
+    "question": "What is the correct syntax for the main function in C++?",
+    "options": {
+      "a": "int main()",
+      "b": "void main()",
+      "c": "int main(void)",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 259,
+    "category_id": 6,
+    "question": "Which of the following statements is used to terminate a loop in C++?",
+    "options": {
+      "a": "end",
+      "b": "terminate",
+      "c": "stop",
+      "d": "break"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 260,
+    "category_id": 6,
+    "question": "Which operator is used to access the address of a variable in C++?",
+    "options": {
+      "a": "*",
+      "b": ".",
+      "c": "->",
+      "d": "&"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 261,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int y = 10;\n    if (x < y) {\n        cout << y;\n    } else {\n        cout << x;\n    }\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 262,
+    "category_id": 6,
+    "question": "Which of the following is the correct way to declare a constant in C++?",
+    "options": {
+      "a": "const int CONSTANT = 5;",
+      "b": "constant int CONSTANT = 5;",
+      "c": "int CONSTANT = 5; const;",
+      "d": "int CONSTANT = 5; const int;"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 263,
+    "category_id": 6,
+    "question": "What is the correct syntax for a for loop in C++?",
+    "options": {
+      "a": "for (int i = 0; i < 10; i++)",
+      "b": "for (i = 0; i < 10; i++)",
+      "c": "for (int i = 0; i < 10)",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 264,
+    "category_id": 6,
+    "question": "What is the result of the following expression in C++?\n\n5 % 2",
+    "options": {
+      "a": "2.5",
+      "b": "2",
+      "c": "1",
+      "d": "Error"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 265,
+    "category_id": 6,
+    "question": "Which of the following is used to print a formatted string in C++?",
+    "options": {
+      "a": "print()",
+      "b": "output()",
+      "c": "printf()",
+      "d": "display()"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 266,
+    "category_id": 6,
+    "question": "What is the correct way to declare a function in C++?",
+    "options": {
+      "a": "void functionName()",
+      "b": "function functionName()",
+      "c": "functionName()",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 267,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int y = 10;\n    int *ptr = &x;\n    *ptr = 20;\n    cout << x;\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "20",
+      "d": "Error"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 268,
+    "category_id": 6,
+    "question": "Which data type is used to store decimal numbers in C++?",
+    "options": {
+      "a": "float",
+      "b": "double",
+      "c": "decimal",
+      "d": "real"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 269,
+    "category_id": 6,
+    "question": "What is the correct syntax for the if statement in C++?",
+    "options": {
+      "a": "if condition",
+      "b": "if (condition)",
+      "c": "if {condition}",
+      "d": "None of the above"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 270,
+    "category_id": 6,
+    "question": "What is the result of the following expression in C++?\n\n5 * 2 + 3",
+    "options": {
+      "a": "13",
+      "b": "11",
+      "c": "25",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 271,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    cout << sizeof(int);\n    return 0;\n}",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "8",
+      "d": "Compiler dependent"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 272,
+    "category_id": 6,
+    "question": "What is the correct way to include comments in C++ code?",
+    "options": {
+      "a": "// This is a comment",
+      "b": "/* This is a comment */",
+      "c": "# This is a comment",
+      "d": "// This is a comment //"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 273,
+    "category_id": 6,
+    "question": "Which function is used to read input from the standard input device in C++?",
+    "options": {
+      "a": "input()",
+      "b": "read()",
+      "c": "scanf()",
+      "d": "read_input()"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 274,
+    "category_id": 6,
+    "question": "Which of the following is used to declare a structure in C++?",
+    "options": {
+      "a": "struct",
+      "b": "structure",
+      "c": "str",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 275,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int i = 5;\n    int j = 0;\n    j = i++;\n    cout << i << \" \" << j;\n    return 0;\n}",
+    "options": {
+      "a": "5 6",
+      "b": "6 5",
+      "c": "6 6",
+      "d": "5 5"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 276,
+    "category_id": 6,
+    "question": "Which of the following is the correct syntax to access the member of a structure?",
+    "options": {
+      "a": ".",
+      "b": "->",
+      "c": ":",
+      "d": "::"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 277,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int i = 5;\n    cout << ++i + i++;\n    return 0;\n}",
+    "options": {
+      "a": "10",
+      "b": "11",
+      "c": "12",
+      "d": "Error"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 278,
+    "category_id": 6,
+    "question": "Which operator is used to concatenate two strings in C++?",
+    "options": {
+      "a": "+",
+      "b": "-",
+      "c": "*",
+      "d": "/"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 279,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[5] = {1, 2, 3, 4, 5};\n    cout << arr[3];\n    return 0;\n}",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 280,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int *ptr = &x;\n    cout << ptr;\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "Address of x",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 281,
+    "category_id": 6,
+    "question": "What is the correct way to declare a pointer variable in C++?",
+    "options": {
+      "a": "int *ptr;",
+      "b": "int ptr;",
+      "c": "ptr *int;",
+      "d": "int ptr();"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 282,
+    "category_id": 6,
+    "question": "Which of the following is not a valid data type in C++?",
+    "options": {
+      "a": "int",
+      "b": "void",
+      "c": "real",
+      "d": "char"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 283,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int i = 0;\n    for (; i < 5; ) {\n        cout << i;\n        i++;\n    }\n    return 0;\n}",
+    "options": {
+      "a": "01234",
+      "b": "12345",
+      "c": "54321",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 284,
+    "category_id": 6,
+    "question": "What is the correct way to declare a two-dimensional array in C++?",
+    "options": {
+      "a": "int arr[][];",
+      "b": "int arr[][] = new int[];",
+      "c": "int arr[][] = new int[10][10];",
+      "d": "int arr[][] = new int[]();"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 285,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int *ptr = &x;\n    cout << *ptr;\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "Address of x",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 286,
+    "category_id": 6,
+    "question": "What is the correct way to pass arguments to a function in C++?",
+    "options": {
+      "a": "By reference",
+      "b": "By value",
+      "c": "By address",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 287,
+    "category_id": 6,
+    "question": "Which of the following is used to define the member functions of a class outside the class definition?",
+    "options": {
+      "a": "Inline function",
+      "b": "Friend function",
+      "c": "Static function",
+      "d": "Virtual function"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 288,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    cout << arr[5];\n    return 0;\n}",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "5",
+      "d": "Error"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 289,
+    "category_id": 6,
+    "question": "What is the correct way to initialize an array in C++?",
+    "options": {
+      "a": "int arr[] = {1, 2, 3};",
+      "b": "int arr[3] = {1, 2, 3};",
+      "c": "int arr[3] = {1, 2};",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 290,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int i = 0;\n    while (i < 5) {\n        cout << i;\n        i++;\n    }\n    return 0;\n}",
+    "options": {
+      "a": "01234",
+      "b": "12345",
+      "c": "54321",
+      "d": "Error"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 291,
+    "category_id": 6,
+    "question": "Which of the following is the correct way to access the elements of a structure?",
+    "options": {
+      "a": ".",
+      "b": "->",
+      "c": ":",
+      "d": "::"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 292,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    for (int i = 0; i < 5; i++) {\n        if (i == 3)\n            continue;\n        cout << i;\n    }\n    return 0;\n}",
+    "options": {
+      "a": "0124",
+      "b": "012345",
+      "c": "012",
+      "d": "Error"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 293,
+    "category_id": 6,
+    "question": "Which of the following is the correct way to allocate memory dynamically in C++?",
+    "options": {
+      "a": "alloc()",
+      "b": "allocate()",
+      "c": "malloc()",
+      "d": "new()"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 294,
+    "category_id": 6,
+    "question": "What is the correct way to include a header file in C++?",
+    "options": {
+      "a": "#include <file>",
+      "b": "#include \"file\"",
+      "c": "<include file>",
+      "d": "#include file"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 295,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int y = 10;\n    int *ptr = &x;\n    ptr = &y;\n    cout << *ptr;\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "Address of x",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 296,
+    "category_id": 6,
+    "question": "What is the correct way to declare a class in C++?",
+    "options": {
+      "a": "class MyClass",
+      "b": "class",
+      "c": "MyClass",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 297,
+    "category_id": 6,
+    "question": "Which of the following is not a valid loop in C++?",
+    "options": {
+      "a": "for loop",
+      "b": "while loop",
+      "c": "until loop",
+      "d": "do-while loop"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 298,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int *ptr = &x;\n    int &ref = x;\n    cout << ref;\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "Address of x",
+      "c": "Error",
+      "d": "Undefined"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 299,
+    "category_id": 6,
+    "question": "What is the correct way to define a constructor in C++?",
+    "options": {
+      "a": "constructor()",
+      "b": "void constructor()",
+      "c": "MyClass()",
+      "d": "None of the above"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 300,
+    "category_id": 6,
+    "question": "What is the output of the following code in C++?\n\n#include <iostream>\nusing namespace std;\nint main() {\n    int x = 5;\n    int y = 10;\n    int *ptr = &x;\n    *ptr = y;\n    cout << x;\n    return 0;\n}",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "Address of x",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 301,
+    "category_id": 7,
+    "question": "Which keyword is used to define a constant in Java?",
+    "options": {
+      "a": "const",
+      "b": "static",
+      "c": "final",
+      "d": "constant"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 302,
+    "category_id": 7,
+    "question": "What does JVM stand for in Java?",
+    "options": {
+      "a": "Java Virtual Machine",
+      "b": "Java Variable Manager",
+      "c": "Java Visual Model",
+      "d": "Java Version Manager"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 303,
+    "category_id": 7,
+    "question": "Which of the following is not a valid primitive data type in Java?",
+    "options": {
+      "a": "int",
+      "b": "float",
+      "c": "char",
+      "d": "string"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 304,
+    "category_id": 7,
+    "question": "What is the size of the int data type in Java?",
+    "options": {
+      "a": "8 bits",
+      "b": "16 bits",
+      "c": "32 bits",
+      "d": "64 bits"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 305,
+    "category_id": 7,
+    "question": "Which of the following is used to create an object in Java?",
+    "options": {
+      "a": "new",
+      "b": "create",
+      "c": "alloc",
+      "d": "object"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 306,
+    "category_id": 7,
+    "question": "What is the parent class of all classes in Java?",
+    "options": {
+      "a": "Object",
+      "b": "Main",
+      "c": "Parent",
+      "d": "Base"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 307,
+    "category_id": 7,
+    "question": "What does the 'super' keyword do in Java?",
+    "options": {
+      "a": "Refers to the superclass of a class",
+      "b": "Refers to the subclass of a class",
+      "c": "Refers to the current class instance",
+      "d": "Refers to the parent of a method"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 308,
+    "category_id": 7,
+    "question": "Which of the following is not a valid access modifier in Java?",
+    "options": {
+      "a": "public",
+      "b": "protected",
+      "c": "private",
+      "d": "global"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 309,
+    "category_id": 7,
+    "question": "What is the purpose of the 'static' keyword in Java?",
+    "options": {
+      "a": "To define a variable",
+      "b": "To define a method",
+      "c": "To define a constant",
+      "d": "To make a member belong to the class, rather than a specific instance"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 310,
+    "category_id": 7,
+    "question": "Which of the following statements is true about interfaces in Java?",
+    "options": {
+      "a": "Interfaces cannot have methods",
+      "b": "A class can implement multiple interfaces",
+      "c": "Interfaces can have constructors",
+      "d": "Interfaces can have instance variables"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 311,
+    "category_id": 7,
+    "question": "Which of the following statements correctly declares a String variable named 'name'?",
+    "options": {
+      "a": "String name = new String();",
+      "b": "String name;",
+      "c": "String name = '';",
+      "d": "String name = null;"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 312,
+    "category_id": 7,
+    "question": "What is the result of 10 % 3 in Java?",
+    "options": {
+      "a": "3",
+      "b": "1",
+      "c": "0.3",
+      "d": "10"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 313,
+    "category_id": 7,
+    "question": "What is the default value of a boolean in Java?",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "0",
+      "d": "1"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 314,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(x++);\n```",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "4",
+      "d": "Error"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 315,
+    "category_id": 7,
+    "question": "Which keyword is used to indicate that a method does not return any value in Java?",
+    "options": {
+      "a": "void",
+      "b": "null",
+      "c": "none",
+      "d": "return"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 316,
+    "category_id": 7,
+    "question": "What does the 'this' keyword refer to in Java?",
+    "options": {
+      "a": "Refers to the current class instance",
+      "b": "Refers to the parent class",
+      "c": "Refers to the subclass",
+      "d": "Refers to the superclass"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 317,
+    "category_id": 7,
+    "question": "Which of the following is a valid identifier in Java?",
+    "options": {
+      "a": "2variable",
+      "b": "_variable",
+      "c": "$variable",
+      "d": "#variable"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 318,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nString str = \"Java\";\nSystem.out.println(str.charAt(2));\n```",
+    "options": {
+      "a": "v",
+      "b": "a",
+      "c": "v a",
+      "d": "Error"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 319,
+    "category_id": 7,
+    "question": "Which of the following is not a valid loop in Java?",
+    "options": {
+      "a": "for",
+      "b": "while",
+      "c": "loop",
+      "d": "do-while"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 320,
+    "category_id": 7,
+    "question": "What does the 'break' statement do in Java?",
+    "options": {
+      "a": "Exits the loop",
+      "b": "Skips the loop",
+      "c": "Continues with the next iteration of the loop",
+      "d": "Stops the program execution"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 321,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nif(x > 3)\n    System.out.println(\"Hello\");\nelse\n    System.out.println(\"Hi\");\n```",
+    "options": {
+      "a": "Hello",
+      "b": "Hi",
+      "c": "Hello Hi",
+      "d": "Hi Hello"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 322,
+    "category_id": 7,
+    "question": "Which of the following is not a valid type of constructor in Java?",
+    "options": {
+      "a": "Default constructor",
+      "b": "Parameterized constructor",
+      "c": "Anonymous constructor",
+      "d": "Copy constructor"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 323,
+    "category_id": 7,
+    "question": "What is the purpose of the 'extends' keyword in Java?",
+    "options": {
+      "a": "To define a subclass",
+      "b": "To define an interface",
+      "c": "To define a method",
+      "d": "To define a package"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 324,
+    "category_id": 7,
+    "question": "Which of the following is not a valid method overriding rule in Java?",
+    "options": {
+      "a": "The method in the subclass must have the same name as the method in the superclass",
+      "b": "The method in the subclass must have the same return type as the method in the superclass",
+      "c": "The method in the subclass must have the same parameters as the method in the superclass",
+      "d": "The method in the subclass can have a lower access modifier than the method in the superclass"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 325,
+    "category_id": 7,
+    "question": "Which of the following is true about method overloading in Java?",
+    "options": {
+      "a": "It allows a subclass to provide a specific implementation of a method that is already provided by its superclass",
+      "b": "It allows a class to have multiple methods with the same name but different parameters",
+      "c": "It allows a method to have multiple return types",
+      "d": "It allows a method to have multiple access modifiers"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 326,
+    "category_id": 7,
+    "question": "Which of the following is not a valid access specifier in Java?",
+    "options": {
+      "a": "public",
+      "b": "private",
+      "c": "internal",
+      "d": "protected"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 327,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr.length);\n```",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "3",
+      "d": "Error"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 328,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nString str1 = \"Hello\";\nString str2 = new String(\"Hello\");\nSystem.out.println(str1 == str2);\n```",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "Error",
+      "d": "null"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 329,
+    "category_id": 7,
+    "question": "Which of the following is not a valid method in the String class in Java?",
+    "options": {
+      "a": "length()",
+      "b": "toUpperCase()",
+      "c": "equals()",
+      "d": "reverse()"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 330,
+    "category_id": 7,
+    "question": "What does the 'implements' keyword do in Java?",
+    "options": {
+      "a": "To implement an interface",
+      "b": "To extend a class",
+      "c": "To define a package",
+      "d": "To define a subclass"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 331,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint[] arr = new int[5];\nSystem.out.println(arr[0]);\n```",
+    "options": {
+      "a": "0",
+      "b": "5",
+      "c": "Error",
+      "d": "null"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 332,
+    "category_id": 7,
+    "question": "Which of the following is true about method overriding in Java?",
+    "options": {
+      "a": "It allows a subclass to provide a specific implementation of a method that is already provided by its superclass",
+      "b": "It allows a class to have multiple methods with the same name but different parameters",
+      "c": "It allows a method to have multiple return types",
+      "d": "It allows a method to have multiple access modifiers"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 333,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nfor(int i = 0; i < 5; i++) {\n    if(i == 3)\n        continue;\n    System.out.print(i + \" \");\n}\n```",
+    "options": {
+      "a": "0 1 2",
+      "b": "0 1 2 3",
+      "c": "0 1 2 4",
+      "d": "0 1 2 3 4"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 334,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nint y = 10;\nSystem.out.println(x > y ? \"x\" : \"y\");\n```",
+    "options": {
+      "a": "x",
+      "b": "y",
+      "c": "5",
+      "d": "10"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 335,
+    "category_id": 7,
+    "question": "Which of the following statements is true about constructors in Java?",
+    "options": {
+      "a": "A constructor can be private",
+      "b": "A constructor cannot be overloaded",
+      "c": "A constructor can return a value",
+      "d": "A constructor can be inherited"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 336,
+    "category_id": 7,
+    "question": "What is the purpose of the 'new' keyword in Java?",
+    "options": {
+      "a": "To allocate memory for an object",
+      "b": "To deallocate memory for an object",
+      "c": "To access a method of an object",
+      "d": "To access a variable of an object"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 337,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nString str = \"Hello\";\nSystem.out.println(str.substring(2, 4));\n```",
+    "options": {
+      "a": "Hel",
+      "b": "ell",
+      "c": "lo",
+      "d": "l"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 338,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint[][] arr = {{1, 2}, {3, 4}};\nSystem.out.println(arr[1][0]);\n```",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 339,
+    "category_id": 7,
+    "question": "Which of the following is not a valid type of inheritance in Java?",
+    "options": {
+      "a": "Single inheritance",
+      "b": "Multiple inheritance",
+      "c": "Multilevel inheritance",
+      "d": "Hierarchical inheritance"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 340,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "4",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 341,
+    "category_id": 7,
+    "question": "Which of the following is true about Java packages?",
+    "options": {
+      "a": "Packages can only be imported but not created",
+      "b": "Packages cannot contain classes",
+      "c": "Packages can contain subpackages",
+      "d": "Packages cannot be nested"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 342,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nString str1 = \"Hello\";\nString str2 = \"World\";\nSystem.out.println(str1.concat(str2));\n```",
+    "options": {
+      "a": "Hello",
+      "b": "World",
+      "c": "HelloWorld",
+      "d": "Hello World"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 343,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint[] arr = new int[5];\nSystem.out.println(arr.length);\n```",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "5",
+      "d": "Error"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 344,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(x--);\n```",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "4",
+      "d": "Error"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 345,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nString str = \"Java\";\nSystem.out.println(str.toUpperCase());\n```",
+    "options": {
+      "a": "Java",
+      "b": "java",
+      "c": "JAVA",
+      "d": "JAVa"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 346,
+    "category_id": 7,
+    "question": "Which of the following is not a valid identifier in Java?",
+    "options": {
+      "a": "my_variable",
+      "b": "myVariable",
+      "c": "my variable",
+      "d": "MYVARIABLE"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 347,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(x += 3);\n```",
+    "options": {
+      "a": "5",
+      "b": "8",
+      "c": "3",
+      "d": "Error"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 348,
+    "category_id": 7,
+    "question": "Which of the following statements correctly declares an array of integers in Java?",
+    "options": {
+      "a": "int[] arr;",
+      "b": "array arr[];",
+      "c": "int arr[];",
+      "d": "array[] arr;"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 349,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(x > 3 && x < 10);\n```",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "Error",
+      "d": "null"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 350,
+    "category_id": 7,
+    "question": "What is the output of the following code snippet?\n\n```java\nint x = 5;\nSystem.out.println(x != 5);\n```",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "Error",
+      "d": "null"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 351,
+    "category_id": 8,
+    "question": "What can travel around the world while staying in a corner?",
+    "options": {
+      "a": "Stamp",
+      "b": "Postcard",
+      "c": "Globe",
+      "d": "A person's thoughts"
+    },
+    "answer": "d"
+  },
+  {
+    "id": 352,
+    "category_id": 8,
+    "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "options": {
+      "a": "The letter 'M'",
+      "b": "A heartbeat",
+      "c": "A memory",
+      "d": "A lightning strike"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 353,
+    "category_id": 8,
+    "question": "What has cities, but no houses; forests, but no trees; and rivers, but no water?",
+    "options": {
+      "a": "Map",
+      "b": "Atlas",
+      "c": "Globe",
+      "d": "Dictionary"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 354,
+    "category_id": 8,
+    "question": "What has to be broken before you can use it?",
+    "options": {
+      "a": "A window",
+      "b": "An egg",
+      "c": "A pencil",
+      "d": "A mirror"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 355,
+    "category_id": 8,
+    "question": "What has keys but can't open locks?",
+    "options": {
+      "a": "Piano",
+      "b": "Keyboard",
+      "c": "Calculator",
+      "d": "Map"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 356,
+    "category_id": 8,
+    "question": "What has many keys but can't open a single lock?",
+    "options": {
+      "a": "A piano",
+      "b": "A calculator",
+      "c": "A typewriter",
+      "d": "A cellphone"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 357,
+    "category_id": 8,
+    "question": "What has eyes but cannot see?",
+    "options": {
+      "a": "A potato",
+      "b": "A needle",
+      "c": "A tornado",
+      "d": "A peacock"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 358,
+    "category_id": 8,
+    "question": "What is full of holes but still holds water?",
+    "options": {
+      "a": "A sponge",
+      "b": "A bucket",
+      "c": "A sieve",
+      "d": "A strainer"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 359,
+    "category_id": 8,
+    "question": "What goes up but never comes down?",
+    "options": {
+      "a": "Age",
+      "b": "Balloon",
+      "c": "Sun",
+      "d": "Airplane"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 360,
+    "category_id": 8,
+    "question": "The more you take, the more you leave behind. What am I?",
+    "options": {
+      "a": "Footsteps",
+      "b": "Memories",
+      "c": "A trail",
+      "d": "A journey"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 361,
+    "category_id": 8,
+    "question": "What gets wetter as it dries?",
+    "options": {
+      "a": "A towel",
+      "b": "A sponge",
+      "c": "A shirt",
+      "d": "A river"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 362,
+    "category_id": 8,
+    "question": "The more you have of it, the less you see. What is it?",
+    "options": {
+      "a": "Darkness",
+      "b": "Space",
+      "c": "Time",
+      "d": "Wisdom"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 363,
+    "category_id": 8,
+    "question": "What has a head, a tail, but no body?",
+    "options": {
+      "a": "Coin",
+      "b": "Snake",
+      "c": "Fish",
+      "d": "Dragon"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 364,
+    "category_id": 8,
+    "question": "What has one eye but can't see?",
+    "options": {
+      "a": "A needle",
+      "b": "A potato",
+      "c": "A storm",
+      "d": "A tornado"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 365,
+    "category_id": 8,
+    "question": "What can you catch but not throw?",
+    "options": {
+      "a": "A cold",
+      "b": "A ball",
+      "c": "A stick",
+      "d": "A butterfly"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 366,
+    "category_id": 8,
+    "question": "What has cities, but no houses; forests, but no trees; and rivers, but no water?",
+    "options": {
+      "a": "Map",
+      "b": "Atlas",
+      "c": "Globe",
+      "d": "Dictionary"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 367,
+    "category_id": 8,
+    "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+    "options": {
+      "a": "The letter 'M'",
+      "b": "The number '2'",
+      "c": "The word 'time'",
+      "d": "The phrase 'a thought'"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 368,
+    "category_id": 8,
+    "question": "What is so fragile that saying its name breaks it?",
+    "options": {
+      "a": "Silence",
+      "b": "A mirror",
+      "c": "A whisper",
+      "d": "A feather"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 369,
+    "category_id": 8,
+    "question": "What has a heart that doesn't beat?",
+    "options": {
+      "a": "A brain",
+      "b": "A computer",
+      "c": "A clock",
+      "d": "An artichoke"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 370,
+    "category_id": 8,
+    "question": "What belongs to you but is used more by others?",
+    "options": {
+      "a": "A name",
+      "b": "A voice",
+      "c": "A bed",
+      "d": "A car"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 371,
+    "category_id": 8,
+    "question": "What has a head at the top and a head at the bottom?",
+    "options": {
+      "a": "A pillow",
+      "b": "A hat",
+      "c": "A coin",
+      "d": "A body"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 372,
+    "category_id": 8,
+    "question": "What has keys but can't open locks?",
+    "options": {
+      "a": "A treasure chest",
+      "b": "A book",
+      "c": "A puzzle",
+      "d": "A safe"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 373,
+    "category_id": 8,
+    "question": "What can you break, even if you never pick it up or touch it?",
+    "options": {
+      "a": "A promise",
+      "b": "A mirror",
+      "c": "A stick",
+      "d": "A pencil"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 374,
+    "category_id": 8,
+    "question": "What comes down but never goes up?",
+    "options": {
+      "a": "Rain",
+      "b": "A balloon",
+      "c": "A feather",
+      "d": "A kite"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 375,
+    "category_id": 8,
+    "question": "What has wings but cannot fly?",
+    "options": {
+      "a": "A birdhouse",
+      "b": "A bottle",
+      "c": "A butterfly",
+      "d": "A river"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 376,
+    "category_id": 8,
+    "question": "What can you keep after giving to someone?",
+    "options": {
+      "a": "Your word",
+      "b": "A secret",
+      "c": "A gift",
+      "d": "A smile"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 377,
+    "category_id": 8,
+    "question": "What can you hold in your right hand, but never in your left hand?",
+    "options": {
+      "a": "Your left hand",
+      "b": "Your right hand",
+      "c": "Your heart",
+      "d": "Your breath"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 378,
+    "category_id": 8,
+    "question": "What has a neck but no head?",
+    "options": {
+      "a": "A bottle",
+      "b": "A river",
+      "c": "A giraffe",
+      "d": "A mountain"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 379,
+    "category_id": 8,
+    "question": "What can you catch but not throw?",
+    "options": {
+      "a": "A cold",
+      "b": "A ball",
+      "c": "A fish",
+      "d": "A net"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 380,
+    "category_id": 8,
+    "question": "What has a neck but no head?",
+    "options": {
+      "a": "A bottle",
+      "b": "A river",
+      "c": "A giraffe",
+      "d": "A mountain"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 381,
+    "category_id": 8,
+    "question": "What has keys but can't open locks, and space but no room?",
+    "options": {
+      "a": "Keyboard",
+      "b": "Piano",
+      "c": "Calculator",
+      "d": "Typewriter"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 382,
+    "category_id": 8,
+    "question": "What has a thumb and four fingers, but is not alive?",
+    "options": {
+      "a": "A glove",
+      "b": "A hand",
+      "c": "A glove puppet",
+      "d": "A mitten"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 383,
+    "category_id": 8,
+    "question": "What has keys but can't open locks?",
+    "options": {
+      "a": "A keyboard",
+      "b": "A map",
+      "c": "A puzzle",
+      "d": "A treasure chest"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 384,
+    "category_id": 8,
+    "question": "What has a thumb and four fingers, but is not alive?",
+    "options": {
+      "a": "A glove",
+      "b": "A hand",
+      "c": "A glove puppet",
+      "d": "A mitten"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 385,
+    "category_id": 8,
+    "question": "What has a thumb and four fingers, but is not alive?",
+    "options": {
+      "a": "A glove",
+      "b": "A hand",
+      "c": "A glove puppet",
+      "d": "A mitten"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 386,
+    "category_id": 8,
+    "question": "What has a thumb and four fingers, but is not alive?",
+    "options": {
+      "a": "A glove",
+      "b": "A hand",
+      "c": "A glove puppet",
+      "d": "A mitten"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 387,
+    "category_id": 8,
+    "question": "What is full of holes but still holds water?",
+    "options": {
+      "a": "Sponge",
+      "b": "Net",
+      "c": "Strainer",
+      "d": "Sieve"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 388,
+    "category_id": 8,
+    "question": "What has cities but no houses, forests but no trees, and rivers but no water?",
+    "options": {
+      "a": "Globe",
+      "b": "Map",
+      "c": "Dictionary",
+      "d": "Atlas"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 389,
+    "category_id": 8,
+    "question": "What is always in front of you but can't be seen?",
+    "options": {
+      "a": "The future",
+      "b": "The past",
+      "c": "The present",
+      "d": "The sky"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 390,
+    "category_id": 8,
+    "question": "What has many keys but can't open a single lock?",
+    "options": {
+      "a": "Typewriter",
+      "b": "Piano",
+      "c": "Calculator",
+      "d": "Computer keyboard"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 391,
+    "category_id": 8,
+    "question": "What gets wetter as it dries?",
+    "options": {
+      "a": "Towel",
+      "b": "Sponge",
+      "c": "Shirt",
+      "d": "Water"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 392,
+    "category_id": 8,
+    "question": "What has keys that can't open locks?",
+    "options": {
+      "a": "Puzzle",
+      "b": "Keyboard",
+      "c": "Computer",
+      "d": "Calculator"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 393,
+    "category_id": 8,
+    "question": "What has a face and two hands but no arms or legs?",
+    "options": {
+      "a": "A clock",
+      "b": "A watch",
+      "c": "A calendar",
+      "d": "A mirror"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 394,
+    "category_id": 8,
+    "question": "What comes down but never goes up?",
+    "options": {
+      "a": "Rain",
+      "b": "A bird",
+      "c": "A balloon",
+      "d": "A butterfly"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 395,
+    "category_id": 8,
+    "question": "What can you hold in your right hand, but never in your left hand?",
+    "options": {
+      "a": "Your left hand",
+      "b": "Your right hand",
+      "c": "Your heart",
+      "d": "Your breath"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 396,
+    "category_id": 8,
+    "question": "What has a neck but no head?",
+    "options": {
+      "a": "A bottle",
+      "b": "A river",
+      "c": "A giraffe",
+      "d": "A mountain"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 397,
+    "category_id": 8,
+    "question": "What has keys but can't open locks, and space but no room?",
+    "options": {
+      "a": "Keyboard",
+      "b": "Piano",
+      "c": "Calculator",
+      "d": "Typewriter"
+    },
+    "answer": "b"
+  },
+  {
+    "id": 398,
+    "category_id": 8,
+    "question": "What has a thumb and four fingers, but is not alive?",
+    "options": {
+      "a": "A glove",
+      "b": "A hand",
+      "c": "A glove puppet",
+      "d": "A mitten"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 399,
+    "category_id": 8,
+    "question": "What has a thumb and four fingers, but is not alive?",
+    "options": {
+      "a": "A glove",
+      "b": "A hand",
+      "c": "A glove puppet",
+      "d": "A mitten"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 400,
+    "category_id": 8,
+    "question": "What is full of holes but still holds water?",
+    "options": {
+      "a": "Sponge",
+      "b": "Net",
+      "c": "Strainer",
+      "d": "Sieve"
+    },
+    "answer": "a"
+  }
+]
+}

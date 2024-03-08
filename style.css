@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    box-sizing: border-box;   
+    user-select: none;
+}
+.typed-cursor{
+    display: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black,rgb(4, 4, 54),black);
+    background-size: cover; 
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.whole{
+    width: 100vw;
+    height: 100vh;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    width: 50%;
+    min-width:300px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+}
+#element{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 20px rgb(142, 130, 255);
+}
+.name{
+    margin: 2vh;
+}  
+
+.inp_name{
+    border: none;
+    width: 11vw;
+    min-width:150px;
+    font-size: 1rem;
+    padding: 3px 10px; 
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 6px 6px 10px -1px rgba(15, 12, 75, 0.2),
+	      -6px -6px 10px -1px rgba(133, 135, 237);
+    border: 1px solid rgba(0,0,0,0);  
+    background: transparent;
+    color: white;
+    transition: scale,1s;
+}
+
+.inp_name:focus{
+    box-shadow: inset 4px 4px 6px -1px rgba(15, 12, 75, 0.2),
+	      inset -4px -4px 6px -1px rgb(133, 135, 237),
+	      -0.5px -0.5px 0px rgb(133, 135, 237),
+	      0.5px 0.5px 0px rgba(9, 6, 54, 0.15),
+	      0px 12px 10px -10px rgba(15, 12, 75, 0.2);
+  border: 1px solid rgba(0,0,0,0.1);
+    scale: 1.2;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.start_btn,.l_b{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+    display: grid;
+  place-items: center;
+  background: transparent;
+  padding: 1em 1.4em;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(15, 12, 75, 0.2),
+	      -6px -6px 10px -1px rgba(133, 135, 237);
+  border: 1px solid rgba(0,0,0,0);
+  cursor: pointer;
+  transition: scale,1s;
+  margin-top: 10px;
+}
+
+.start_btn:hover,.l_b:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(15, 12, 75, 0.2),
+	      inset -4px -4px 6px -1px rgb(133, 135, 237),
+	      -0.5px -0.5px 0px rgb(133, 135, 237),
+	      0.5px 0.5px 0px rgba(9, 6, 54, 0.15),
+	      0px 12px 10px -10px rgba(15, 12, 75, 0.2);
+  border: 1px solid rgba(0,0,0,0.1);
+    scale: 1.1;
+}
+
+
+
+.select,.score{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.inner_sel{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-width:300px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+.welcome,.type{
+    margin-top: 15px;
+    text-align: center;
+    font-family:"Lobster";
+    width: 90%;
+    color: white;
+    font-size: 4vh;
+}
+
+.options{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 6px 6px 10px -1px rgba(15, 12, 75, 0.2),
+	      -6px -6px 10px -1px rgba(133, 135, 237);
+    border: 1px solid rgba(0,0,0,0);  
+    background: transparent;
+    color: white;
+}
+
+.options:focus{
+    box-shadow: inset 4px 4px 6px -1px rgba(15, 12, 75, 0.2),
+	      inset -4px -4px 6px -1px rgb(133, 135, 237),
+	      -0.5px -0.5px 0px rgb(133, 135, 237),
+	      0.5px 0.5px 0px rgba(9, 6, 54, 0.15),
+	      0px 12px 10px -10px rgba(15, 12, 75, 0.2);
+  border: 1px solid rgba(0,0,0,0.1);
+    scale: 1.2;
+}
+
+option{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+    background-color: rgb(4, 4, 54);
+}
+.quiz_body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.quiz_head{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 300px;
+}
+.question_block{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 280px;
+    margin-top: 15px;
+
+}
+
+.question{
+    text-align: center;
+    color: white;
+    margin: 10px 15px;
+    font-size: 2.5vh;
+}
+.mcq{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5px;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 3px 4px;
+}
+
+.opt{
+    font-size: 1rem;
+}
+.submit{
+    margin-left: 10px;
+    width: 100px;
+    color: white;
+    background: transparent;
+    height:30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px -1px rgba(15, 12, 75, 0.2),
+	      -3px -3px 10px -1px rgba(133, 135, 237);
+  border: 1px solid rgba(0,0,0,0);
+  cursor: pointer;
+  transition: scale,1s;
+}
+
+.submit:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(15, 12, 75, 0.2),
+	      inset -4px -4px 6px -1px rgb(133, 135, 237),
+	      -0.5px -0.5px 0px rgb(133, 135, 237),
+	      0.5px 0.5px 0px rgba(9, 6, 54, 0.15),
+	      0px 12px 10px -10px rgba(15, 12, 75, 0.2);
+  border: 1px solid rgba(0,0,0,0.1);
+    scale: 1.1;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+thead{
+    color: white;
+}
+td{
+    color: aliceblue;
+}
+
+.heading{
+    color: white;
+    font-family:"Lobster";
+    font-size: xx-large;
+    padding-bottom: 30px;
+}
+
+.score{
+    flex-direction: column;
+
+}
+
+.block{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+    box-shadow: 6px 6px 10px -1px rgba(5, 70, 90, 0.2),
+            -6px -6px 10px -1px rgb(72, 158, 193);
+border: 1px solid rgba(54, 182, 179, 0.5); /* Teal border with 50% opacity */
+
+    padding: 20px 30px;
+    border-radius: 20px;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    background-color: teal;
+    
+}
+
+.block:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(15, 12, 75, 0.2),
+            inset -4px -4px 6px -1px rgb(72, 158, 193),
+            -0.5px -0.5px 0px rgb(72, 158, 193),
+            0.5px 0.5px 0px rgba(54, 182, 179, 0.15), /* Teal shadow */
+            0px 12px 10px -10px rgba(15, 12, 75, 0.2);
+border: 1px solid rgba(54, 182, 179, 0.1); /* Teal border with 10% opacity */
+
+    scale: 1.2;
+}
+
+.home{
+    margin-left: 10px;
+    width: 100px;
+    color: white;
+    background: transparent;
+    height:30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px -1px rgba(15, 12, 75, 0.2),
+	      -3px -3px 10px -1px rgba(133, 135, 237);
+  border: 1px solid rgba(0,0,0,0);
+  cursor: pointer;
+  transition: scale,1s;
+  margin-top: 20px;
+}
+
+.home:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(15, 12, 75, 0.2),
+	      inset -4px -4px 6px -1px rgb(133, 135, 237),
+	      -0.5px -0.5px 0px rgb(133, 135, 237),
+	      0.5px 0.5px 0px rgba(9, 6, 54, 0.15),
+	      0px 12px 10px -10px rgba(15, 12, 75, 0.2);
+  border: 1px solid rgba(0,0,0,0.1);
+  scale: 1.1;
+}
+
